@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="bg-gradient-to-br from-indigo-900/30 via-blue-900/30 to-cyan-900/30 backdrop-blur-lg scroll-smooth">
+    <div className="bg-gradient-to-br from-indigo-900/50 via-blue-900/50 to-cyan-900/50 backdrop-blur-lg scroll-smooth w-screen">
       <div className="flex flex-col text-white text-center p-5 font-mono">
         <h1 className="text-4xl font-bold p-4">
           <span className="grad-text">AceHack 2.0</span>  Hackathon is here!
