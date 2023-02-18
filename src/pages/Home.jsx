@@ -3,7 +3,7 @@ import AceHackLogo from "/assets/images/AceHack-logo.png";
 
 const Home = () => {
   return (
-    <div className="sticky -z-10 top-24">
+    <div className="sticky z-0 top-24">
       <div className="overlay"></div>
       <video
         className="bgVideo"
@@ -21,15 +21,11 @@ const Home = () => {
           className="h-40 lg:h-56 w-auto"
           src={AceHackLogo}
         />
-        <h1 className="text-2xl mt-2">Coming Soon...</h1>
-        <a
-          className="border-2 px-2 py-[1.5] m-2 border-white transition-shadow hover:bg-white hover:text-black"
-          href={"#"}
-        >
-          <h2>Go to Events</h2>
-        </a>
+        {/* <h1 className="text-2xl mt-2">Coming Soon...</h1> */}
+        
+          <div className="border-2 border-dashed px-3 py-2 my-4 bg-transparent border-cyan-300 hover:grad-text hover:border-solid hover:cursor-pointer font-semibold">Register Now!</div>
 
-        <h2 className="break-words text-center">
+        <h2 className="break-words text-center mb-4 mt-2">
           March, 17 and 18 @ University of Engineering and Management, Jaipur
         </h2>
       </div>

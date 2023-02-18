@@ -2,10 +2,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="bg-gradient-to-br from-indigo-900/30 via-blue-900/30 to-cyan-900/30 backdrop-blur-md scroll-smooth">
+    <div className="bg-gradient-to-br from-indigo-900/30 via-blue-900/30 to-cyan-900/30 backdrop-blur-lg scroll-smooth">
       <div className="flex flex-col text-white text-center p-5 font-mono">
         <h1 className="text-4xl font-bold p-4">
-          AceHack 2.0 Hackathon is here!
+          <span className="grad-text">AceHack 2.0</span>  Hackathon is here!
         </h1>
         <div className="text-xl mx-6 md:mx-56 text-justify mt-6 space-y-4">
           <p>

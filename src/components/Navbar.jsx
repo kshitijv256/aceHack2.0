@@ -3,7 +3,7 @@ import FancyButton from "./FancyButton";
 
 export const Navbar = () => {
   return (
-    <div className="w-full h-16 px-5 md:flex justify-between items-center fixed top-0 hidden backdrop-blur-md">
+    <div className="w-full h-16 px-5 md:flex justify-between items-center fixed top-0 hidden backdrop-blur-md z-10">
       <div>
         <img src="https://via.placeholder.com/200x50.png?text=AceHack2.0" alt="AceHack2.0" />
       </div>

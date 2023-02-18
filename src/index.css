@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 .bgVideo {
-
   object-fit: cover;
   width: 100vw;
   height: 100vh;
@@ -22,4 +21,12 @@
   height: 100vh;
   width: 100vw;
   z-index: -1;
+}
+
+@layer utilities{
+  .grad-text {
+    background: linear-gradient(90deg, #00ffee 0%, #036cff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
