@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="bg-gradient-to-br from-indigo-900/50 via-blue-900/50 to-cyan-900/50 backdrop-blur-lg scroll-smooth w-screen">
       <div className="flex flex-col text-white text-center items-center">
-        <h1 className="text-6xl font-bold py-10">
+        <h1 className="md:text-6xl text-4xl font-bold py-10 flex-wrap">
           <span className="grad-text">AceHack 2.0</span>  Hackathon is here!
         </h1>
         <div className="text-xl flex flex-col gap-5 lg:px-56 pb-10 px-5">
