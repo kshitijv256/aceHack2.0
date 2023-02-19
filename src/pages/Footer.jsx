@@ -55,12 +55,13 @@ const Footer = () => {
           <p className="text-gray-400">email: ab@email.com</p>
         </div>
       </div>
-      <div className="ml-24 flex flex-row justify-evenly">
+      <div className="ml-24 flex flex-row justify-end px-4">
         <Icon icon="/assets/images/uem.png"/>
         <Icon icon="/assets/images/acm.jpeg"/>
       </div>
       <div className="bg-gray-900 capitalize text-gray-500 p-2 text-right px-4">
-        designed by: <span className="grad-text">kshitij verma</span>
+        designed by: <span className="grad-text">kshitij verma</span> &
+        <span className="grad-text">devdeep</span>
       </div>
     </div>
   );

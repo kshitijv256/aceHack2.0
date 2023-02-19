@@ -6,6 +6,7 @@ import Past from "./pages/Past";
 import Sponsership from "./pages/Sponsership";
 import Team from "./pages/Team";
 import Footer from "./pages/Footer";
+import Speakers from "./pages/Speakers";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Home />
       <About />
       <Past />
+      <Speakers />
       <Sponsership />
       <Team />
       <Footer />
