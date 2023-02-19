@@ -20,7 +20,7 @@ const Past = () => {
           <Features icon={projects} count="80" text="Projects" color="fuchsia"/>
         </div>
         <h1 className="grad-text text-4xl font-bold py-6">Pictures</h1>
-        <div className="relative w-full flex gap-6 justify-start overflow-x-auto py-10 scrollbar-hide snap-x">
+        <div className="relative w-full flex gap-6 justify-start overflow-x-auto p-10 scrollbar-hide snap-x">
           {/* <div className="m-64"></div> */}
           <Pictures imgSrc={"https://plus.unsplash.com/premium_photo-1663040077027-d74f3beaa46a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"}/>
           <Pictures imgSrc={"https://plus.unsplash.com/premium_photo-1663040077027-d74f3beaa46a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"}/>
