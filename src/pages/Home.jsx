@@ -4,7 +4,7 @@ import backgroundImage from "/assets/images/background-image.jpg";
 
 const Home = () => {
   return (
-    <div className="sticky z-0 mt-36 text-white">
+    <div id="home" className="sticky top-20 z-0 mt-36 text-white">
       <div className="overlay"></div>
         <img className="bgVideo" src={backgroundImage} alt="aceHack background image" />
       <div className="my-10 flex flex-col justify-center items-center">

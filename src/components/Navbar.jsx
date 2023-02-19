@@ -4,15 +4,16 @@ import AceHackSm from "/assets/images/AceHack-sm-logo.png"
 
 export const Navbar = () => {
   return (
-    <div className="w-full px-5 py-2 md:flex justify-between items-center fixed top-0 hidden backdrop-blur-md z-30 bg-gray-900/30">
+    <div className="w-full h-20 px-5 py-2 md:flex justify-between items-center fixed top-0 hidden backdrop-blur-md z-30 bg-gray-900/30">
       <div>
         <img src={AceHackSm} alt="AceHack2.0" className="object-contain" />
       </div>
-      <div className="w-full flex justify-end">
-        <FancyButton link={"./computer"} data={"Register!"}/>
-        <FancyButton link={"./computer"} data={"Schedule"}/>
-        <FancyButton link={"./computer"} data={"Rules"}/>
-        <FancyButton link={"./computer"} data={"About"}/>
+      <div className="w-full h-full flex justify-end">
+        <FancyButton id={"home"} data={"Register!"}/>
+        <FancyButton id={"about"} data={"About"}/>
+        <FancyButton id={"past"} data={"Acehack 1.0"}/>
+        <FancyButton id={"sponsor"} data={"Sponsors"}/>
+        <FancyButton id={"team"} data={"Team"}/>
       </div>
     </div>
   )

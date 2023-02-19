@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Past from "./pages/Past";
 import Sponsership from "./pages/Sponsership";
 import Team from "./pages/Team";
+import Footer from "./pages/Footer";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Past />
       <Sponsership />
       <Team />
+      <Footer />
     </>
   )
 }

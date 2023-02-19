@@ -2,9 +2,9 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="bg-gradient-to-br from-indigo-900/50 via-blue-900/50 to-cyan-900/50 backdrop-blur-lg scroll-smooth w-full py-10">
+    <div id="about" className="pt-24 pb-12 bg-gradient-to-br from-indigo-900/50 via-blue-900/50 to-cyan-900/50 backdrop-blur-lg scroll-smooth w-full">
       <div className="flex flex-col text-white text-center items-center">
-        <h1 className="text-5xl font-bold pb-10 flex-wrap">
+        <h1 className="text-5xl font-bold pb-12 flex-wrap">
           <span className="grad-text">AceHack 2.0</span>  Hackathon is here!
         </h1>
         <div className="text-xl flex flex-col gap-5 lg:px-56 px-5">
