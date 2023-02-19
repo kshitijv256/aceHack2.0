@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 .bgVideo {
-
   object-fit: cover;
   width: 100vw;
   height: 100vh;
@@ -14,7 +13,7 @@
 }
 
 .overlay {
-  background-color: #000;
+  background-color: #020b0c;
   opacity: 0.8;
   position: fixed;
   top: 0;
@@ -22,4 +21,20 @@
   height: 100vh;
   width: 100vw;
   z-index: -1;
+}
+
+@layer utilities{
+  .grad-text {
+    background: linear-gradient(90deg, #00ffee 0%, #036cff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
