@@ -9,7 +9,7 @@ const Home = () => {
         <img className="bgVideo" src={backgroundImage} alt="aceHack background image" />
       <div className="my-10 flex flex-col justify-center items-center">
         <img alt="AceHack Logo" className="w-auto py-10" src={AceHackLogo} />
-        <a className="border-2 px-3 py-2 p-10 text-xl border-white transition-shadow hover:bg-white hover:text-black" href={"#"}>
+        <a className="border-2 px-3 py-2 p-10 text-xl border-white transition-shadow hover:bg-gradient-to-br from-cyan-300 to-cyan-500 hover:text-black" href={"#"}>
           <h2>Register Now</h2>
         </a>
         <h2 className="break-words text-center my-10 text-xl">
