@@ -8,7 +8,7 @@ export const Navbar = () => {
       <div>
         <img src={AceHackSm} alt="AceHack2.0" className="object-contain" />
       </div>
-      <div className="w-full h-full flex justify-end">
+      <div className="w-full h-full gap-6 flex justify-end">
         <FancyButton id={"home"} data={"Register!"}/>
         <FancyButton id={"about"} data={"About"}/>
         <FancyButton id={"past"} data={"Acehack 1.0"}/>

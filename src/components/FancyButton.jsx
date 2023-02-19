@@ -13,7 +13,8 @@ const FancyButton = (props) => {
   };
 
   return (
-        <button className="hover:bg-cyan-900/30 hover:text-cyan-500 text-white font-bold text-xl h-full px-4 mx-4 rounded-sm" onClick={handleClickScroll}>
+        <button className="hover:translate-x-1 hover:translate-y-1 hover:shadow-none uppercase bg-indigo-100 font-semibold text-xl h-3/4 px-7 rounded-sm cursor-pointer button-shadow"
+          onClick={handleClickScroll}>
           {props.data}
         </button>
   );

@@ -23,6 +23,11 @@
   z-index: -1;
 }
 
+.button-shadow {
+  box-shadow: 0.25rem 0.25rem #f032fa, 0.25rem 0.25rem 0 #35195e;
+  transition: all .15s linear 0s;
+}
+
 @layer utilities{
   .grad-text {
     background: linear-gradient(90deg, #00ffee 0%, #036cff 100%);
