@@ -1,23 +1,26 @@
 import React from "react";
 import Features from "../components/Features";
 import Pictures from "../components/Pictures";
-import apply from "/assets/images/applicattion.png";
-import participants from "/assets/images/group.png";
-import universities from "/assets/images/school.png";
-import projects from "/assets/images/projects.png";
+import { FaUsers, FaUniversity, FaEnvelopeOpenText } from "react-icons/fa";
+import { IoRocket } from "react-icons/io5";
+import { IconContext } from "react-icons";
+
 
 const Past = () => {
   return (
+    <IconContext.Provider
+      value={{style: { fontSize: "8rem", position: "relative", color:"black" }}}
+    >
     <div id="past" className="pt-24 text-white z-20 relative bg-indigo-900/30 backdrop-blur-lg w-full py-10">
       <div className="flex flex-col items-center text-center">
         <h1 className="text-5xl font-bold pb-10 flex-wrap">
           <span className="grad-text">AceHack 1.0</span> Highlights!
         </h1>
         <div className="flex sm:flex-row justify-evenly w-full p-10 flex-col">
-          <Features icon={apply} count="1000" text="Applications" color="blue" />
-          <Features icon={participants} count="300" text="Participants" color="fuchsia" />
-          <Features icon={universities} count="10" text="Universities" color="blue"/>
-          <Features icon={projects} count="80" text="Projects" color="fuchsia"/>
+          <Features icon={<FaEnvelopeOpenText/>} count="1000" text="Applications" color="blue" />
+          <Features icon={<FaUsers/>} count="300" text="Participants" color="emerald" />
+          <Features icon={<FaUniversity/>} count="10" text="Universities" color="blue"/>
+          <Features icon={<IoRocket/>} count="80" text="Projects" color="emerald"/>
         </div>
         <h1 className="grad-text text-5xl font-bold py-6">Glimpses</h1>
         
@@ -37,6 +40,7 @@ const Past = () => {
         </div>
       </div>
     </div>
+    </IconContext.Provider>
   );
 };
 
