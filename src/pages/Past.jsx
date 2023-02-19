@@ -3,7 +3,7 @@ import Features from "../components/Features";
 
 const Past = () => {
   return (
-    <div className="text-white z-50 relative bg-indigo-900/50 backdrop-blur-lg w-screen">
+    <div className="text-white z-20 relative bg-indigo-900/50 backdrop-blur-lg w-screen">
       <div className="flex flex-col items-center">
         <h1 className="text-4xl font-bold p-4 my-4">
           <span className="grad-text">AceHack 1.0</span> Highlights!
