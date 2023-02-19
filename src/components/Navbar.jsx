@@ -4,7 +4,7 @@ import AceHackSm from "/assets/images/AceHack-sm-logo.png"
 
 export const Navbar = () => {
   return (
-    <div className="w-screen px-5 py-2 md:flex justify-between items-center fixed top-0 hidden backdrop-blur-md z-10">
+    <div className="w-full px-5 py-2 md:flex justify-between items-center fixed top-0 hidden backdrop-blur-md z-30 bg-gray-900/30">
       <div>
         <img src={AceHackSm} alt="AceHack2.0" className="object-contain" />
       </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="bg-gradient-to-br from-indigo-900/50 via-blue-900/50 to-cyan-900/50 backdrop-blur-lg scroll-smooth w-screen py-10">
+    <div className="bg-gradient-to-br from-indigo-900/50 via-blue-900/50 to-cyan-900/50 backdrop-blur-lg scroll-smooth w-full py-10">
       <div className="flex flex-col text-white text-center items-center">
         <h1 className="text-5xl font-bold pb-10 flex-wrap">
           <span className="grad-text">AceHack 2.0</span>  Hackathon is here!
@@ -10,7 +10,7 @@ const About = () => {
         <div className="text-xl flex flex-col gap-5 lg:px-56 px-5">
           <p>
             This March, ACM-UEM Chapter proudly announces the comeback of our
-            in-person hackathon with AceHack 2.0!
+            in-person hackathon with <span className="underline-offset-8 underline decoration-cyan-300"> AceHack 2.0!</span>
           </p>
           <p>
             We aspire to empower our student community and encourage students to

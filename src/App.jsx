@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import About from "./pages/About";
 import Past from "./pages/Past";
 import Sponsership from "./pages/Sponsership";
+import Team from "./pages/Team";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <About />
       <Past />
       <Sponsership />
+      <Team />
     </>
   )
 }
