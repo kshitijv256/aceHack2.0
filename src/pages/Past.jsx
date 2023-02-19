@@ -17,9 +17,8 @@ const Past = () => {
       
         <h1 className="grad-text text-4xl font-bold py-6">Pictures</h1>
 
-        <div class="relative w-full flex gap-6 overflow-x-auto pb-14 scrollbar-hide hover:scroll-smooth">
-          <div className=" shrink-0 mx-2">
-            <div className="shrink-0 w-4 sm:w-10"></div>
+        <div className="relative w-full flex gap-6 overflow-x-auto pb-14 scrollbar-hide hover:scroll-smooth">
+          <div className=" shrink-0 mx-1">
           </div>
           <div class=" shrink-0 mx-2">
             <img src="https://images.unsplash.com/photo-1604999565976-8913ad2ddb7c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&h=160&q=80"
