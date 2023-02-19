@@ -11,7 +11,7 @@ const Past = () => {
     <IconContext.Provider
       value={{style: { fontSize: "8rem", position: "relative", color:"black" }}}
     >
-    <div className="text-white z-20 relative bg-indigo-900/50 backdrop-blur-lg w-full py-10">
+    <div id="past" className="pt-24 text-white z-20 relative bg-indigo-900/30 backdrop-blur-lg w-full py-10">
       <div className="flex flex-col items-center text-center">
         <h1 className="text-5xl font-bold pb-10 flex-wrap">
           <span className="grad-text">AceHack 1.0</span> Highlights!
@@ -22,15 +22,21 @@ const Past = () => {
           <Features icon={<FaUniversity/>} count="10" text="Universities" color="blue"/>
           <Features icon={<IoRocket/>} count="80" text="Projects" color="emerald"/>
         </div>
-        <h1 className="grad-text text-4xl font-bold py-6">Pictures</h1>
-        <div className="relative w-full flex gap-6 justify-start overflow-x-auto p-10 scrollbar-hide snap-x">
-          {/* <div className="m-64"></div> */}
-          <Pictures imgSrc={"https://plus.unsplash.com/premium_photo-1663040077027-d74f3beaa46a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"}/>
-          <Pictures imgSrc={"https://plus.unsplash.com/premium_photo-1663040077027-d74f3beaa46a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"}/>
-          <Pictures imgSrc={"https://plus.unsplash.com/premium_photo-1663040077027-d74f3beaa46a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"}/>
-          <Pictures imgSrc={"https://plus.unsplash.com/premium_photo-1663040077027-d74f3beaa46a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"}/>
-          <Pictures imgSrc={"https://plus.unsplash.com/premium_photo-1663040077027-d74f3beaa46a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"}/>
-          <Pictures imgSrc={"https://plus.unsplash.com/premium_photo-1663040077027-d74f3beaa46a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"}/>
+        <h1 className="grad-text text-5xl font-bold py-6">Glimpses</h1>
+        
+        {/* <div className="relative w-full flex gap-6 justify-start overflow-x-auto py-10 scrollbar-hide snap-x"> */}
+        
+        <div className="flex md:flex-row flex-col justify-evenly w-[80%] py-4 my-4">
+          <Pictures imgSrc={"/assets/images/acehack/1.jpg"}/>
+          {/* <Pictures imgSrc={"/assets/images/acehack/6.jpeg"}/> */}
+        </div>
+        <div className="flex md:flex-row flex-col justify-evenly w-[80%] py-8">
+          <Pictures imgSrc={"/assets/images/acehack/3.jpeg"}/>
+          <Pictures imgSrc={"/assets/images/acehack/4.jpeg"}/>
+        </div>
+        <div className="flex md:flex-row flex-col justify-evenly w-[80%] py-8">
+          <Pictures imgSrc={"/assets/images/acehack/5.jpeg"}/>
+          <Pictures imgSrc={"/assets/images/acehack/2.jpg"}/>
         </div>
       </div>
     </div>

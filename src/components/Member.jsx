@@ -2,10 +2,10 @@ import React from "react";
 
 const Member = (props) => {
     return (
-        <div className="w-full bg-gray-900 hover:bg-gradient-to-br from-cyan-700/30 to-gray-900 rounded-xl shadow-lg p-12 flex flex-col justify-center items-center z-30">
+        <div className="w-full bg-gray-900 group hover:bg-gradient-to-br from-cyan-700/30 to-gray-900 rounded-xl shadow-lg p-12 flex flex-col justify-center items-center z-30">
             <div className="mb-8">
               <img
-                className="object-center object-cover rounded-full h-36 w-36 hover:ring-8 ring-cyan-600"
+                className="object-center object-cover rounded-full h-36 w-36 group-hover:ring-8 ring-cyan-600"
                 src={props.image}
                 alt="photo"
               />
