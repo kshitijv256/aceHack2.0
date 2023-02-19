@@ -55,7 +55,7 @@ const Footer = () => {
           <p className="text-gray-400">email: ab@email.com</p>
         </div>
       </div>
-      <div className="ml-24 flex flex-row justify-evenly">
+      <div className="ml-24 flex flex-row justify-end px-4">
         <Icon icon="/assets/images/uem.png"/>
         <Icon icon="/assets/images/acm.jpeg"/>
       </div>
