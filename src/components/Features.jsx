@@ -2,23 +2,23 @@ import React from "react";
 
 const Features = (props) => {
   if (props.color === "blue") {
-  return (
+    return (
       <div className="flex flex-col items-center">
-        <div className="rounded-[50%] bg-blue-500/80 p-4 m-3 ring-[6px] hover:bg-blue-500">
-          <img src={props.icon} alt="" srcset="" className="h-32 w-32 scale-75" />
+        <div className="rounded-[50%] bg-blue-400/80 p-4 m-3 ring-[6px] ring-blue-700 hover:bg-blue-300">
+          <svg className="h-32 w-32 scale-75">{props.icon}</svg>
         </div>
         <p className="my-2 font-bold text-4xl text-blue-400">{props.count}+</p>
         <p className="font-semibold text-blue-400 text-xl">{props.text}</p>
       </div>
-  );
-  } else if (props.color === "fuchsia") {
+    );
+  } else if (props.color === "emerald") {
     return (
       <div className="flex flex-col items-center">
-        <div className="rounded-[50%] bg-fuchsia-500/80 p-4 m-3 ring-[6px] ring-fuchsia-700 hover:bg-fuchsia-500">
-          <img src={props.icon} alt="" srcset="" className="h-32 w-32 scale-75" />
+        <div className="rounded-[50%] bg-emerald-300/80 p-4 m-3 ring-[6px] ring-emerald-600 hover:bg-emerald-200">
+          <svg className="h-32 w-32 scale-75">{props.icon}</svg>
         </div>
-        <p className="my-2 font-bold text-4xl text-fuchsia-400">{props.count}+</p>
-        <p className="font-semibold text-fuchsia-400 text-xl">{props.text}</p>
+        <p className="my-2 font-bold text-4xl text-emerald-300">{props.count}+</p>
+        <p className="font-semibold text-emerald-300 text-xl">{props.text}</p>
       </div>
     );
   }
