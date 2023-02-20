@@ -24,7 +24,7 @@
 }
 
 .button-shadow {
-  box-shadow: 0.25rem 0.25rem #f032fa, 0.25rem 0.25rem 0 #35195e;
+  box-shadow: 0.25rem 0.25rem #5c18c9;
   transition: all .15s linear 0s;
 }
 

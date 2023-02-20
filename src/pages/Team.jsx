@@ -6,6 +6,8 @@ import amar from "/assets/images/team/amar.jpg";
 import priya from "/assets/images/team/priya.jpg";
 import devdeep from "/assets/images/team/devdeep.jpg";
 import dipendu from "/assets/images/team/dipendu.jpg";
+import shanu from "/assets/images/team/shanu.jpeg";
+import snehasis from "/assets/images/team/snehasis.jpeg";
 
 const Team = () => {
   return (
@@ -23,8 +25,8 @@ const Team = () => {
           <Member image={priya} name="Priya Chandak" role="Technical" />
           <Member image={devdeep} name="Devdeep Ghosh" role="Web Developer" />
           <Member image={dipendu} name="Dipendu" role="Technical" />
-          <Member image="" name="Random" role="Technical" />
-          <Member image="" name="Random" role="Technical" />
+          <Member image={snehasis} name="Snehasis Bhakat" role="Technical" />
+          <Member image={shanu} name="Shanu" role="Technical" />
         </div>
       </section>
     </div>
