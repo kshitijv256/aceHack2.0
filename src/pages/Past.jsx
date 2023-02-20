@@ -30,11 +30,11 @@ const Past = () => {
           <Pictures imgSrc={"/assets/images/acehack/1.jpg"}/>
           {/* <Pictures imgSrc={"/assets/images/acehack/6.jpeg"}/> */}
         </div>
-        <div className="flex md:flex-row flex-col justify-evenly w-[80%] py-8">
+        <div className="flex md:flex-row flex-col justify-evenly w-[80%] py-4 my-4">
           <Pictures imgSrc={"/assets/images/acehack/3.jpeg"}/>
           <Pictures imgSrc={"/assets/images/acehack/4.jpeg"}/>
         </div>
-        <div className="flex md:flex-row flex-col justify-evenly w-[80%] py-8">
+        <div className="flex md:flex-row flex-col justify-evenly w-[80%] py-4 my-4">
           <Pictures imgSrc={"/assets/images/acehack/5.jpeg"}/>
           <Pictures imgSrc={"/assets/images/acehack/2.jpg"}/>
         </div>

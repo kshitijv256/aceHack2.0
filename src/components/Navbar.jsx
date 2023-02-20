@@ -12,7 +12,7 @@ export const Navbar = () => {
         <FancyButton id={"home"} data={"Register!"}/>
         <FancyButton id={"about"} data={"About"}/>
         <FancyButton id={"past"} data={"Acehack 1.0"}/>
-        <FancyButton id={"sponsor"} data={"Sponsors"}/>
+        <FancyButton id={"themes"} data={"Themes"}/>
         <FancyButton id={"team"} data={"Team"}/>
       </div>
     </div>
