@@ -7,10 +7,13 @@ import Themes from "./pages/Themes";
 import Team from "./pages/Team";
 import Footer from "./pages/Footer";
 import Speakers from "./pages/Speakers";
+import Menu from "./components/Menu";
+import Faq from "./pages/Faq";
 
 const App = () => {
   return (
     <>
+      <Menu />
       <Navbar/>
       <Home />
       <About />
@@ -18,6 +21,7 @@ const App = () => {
       <Speakers />
       <Themes />
       <Team />
+      <Faq />
       <Footer />
     </>
   )

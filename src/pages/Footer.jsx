@@ -59,7 +59,7 @@ const Footer = () => {
         <Icon icon="/assets/images/uem.png" />
         <Icon icon="/assets/images/acm.jpeg" />
       </div>
-      <div className="bg-gray-900 capitalize text-gray-500 p-2 text-right px-4 flex sm:flex-row flex-col items-start justify-between">
+      <div className="bg-gray-900 capitalize text-gray-500 p-2 text-right px-4 flex sm:flex-row flex-col items-start justify-between sm:px-8">
         <div>
           © 2023 Acehack 2.0
         </div>
