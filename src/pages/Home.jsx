@@ -2,6 +2,8 @@ import React from "react";
 import AceHackLogo from "/assets/images/AceHack-logo.png";
 import backgroundImage from "/assets/images/background-image.jpg";
 
+import venue from "/assets/images/location.png";
+
 const Home = () => {
   return (
     <div id="home" className="sticky top-0 z-0 mt-20 pb-20 text-white scroll-smooth">
@@ -13,7 +15,7 @@ const Home = () => {
           <h2>Register Now</h2>
         </a>
         <h2 className="break-words text-center mt-8 mb-10 text-2xl flex items-center">
-          <img src="/assets/images/location.png" className="w-10" />
+          <img src={venue} className="w-10" />
           <p> &nbsp; March, 17 and 18 @ University of Engineering and Management, Jaipur</p>
         </h2>
       </div>
