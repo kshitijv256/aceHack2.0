@@ -12,7 +12,7 @@ const Member = (props) => {
             </div>
             <div className="text-center">
               <p className="text-xl text-white font-bold mb-2">{props.name}</p>
-              <p className="text-base text-gray-400 font-normal">
+              <p className="text-base text-gray-400 font-normal group-hover:animate-fadeIn opacity-0">
                 {props.role}
               </p>
             </div>
