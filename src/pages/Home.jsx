@@ -1,7 +1,7 @@
 import React from "react";
 import AceHackLogo from "/assets/images/AceHack-logo.png";
 import backgroundImage from "/assets/images/background-image.jpg";
-
+import {ImLocation2} from "react-icons/im";
 import venue from "/assets/images/location.png";
 
 const Home = () => {
@@ -15,7 +15,7 @@ const Home = () => {
           <h2>Register Now</h2>
         </a>
         <h2 className="break-words text-center mt-8 mb-10 text-2xl flex items-center">
-          <img src={venue} className="w-10" />
+          <ImLocation2 className="w-10 fill-blue-600" />
           <p> &nbsp; March, 17 and 18 @ University of Engineering and Management, Jaipur</p>
         </h2>
       </div>
