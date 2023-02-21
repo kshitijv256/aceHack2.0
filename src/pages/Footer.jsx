@@ -21,7 +21,6 @@ const Footer = () => {
                 <img
                   src={instagram}
                   alt=""
-                  srcset=""
                   className="h-10 w-10"
                 />
               </div>
@@ -31,7 +30,6 @@ const Footer = () => {
                 <img
                   src={linkedin}
                   alt=""
-                  srcset=""
                   className="h-10 w-10"
                 />
               </div>
@@ -41,7 +39,6 @@ const Footer = () => {
                 <img
                   src={email}
                   alt=""
-                  srcset=""
                   className="h-10 w-10"
                 />
               </div>
@@ -51,7 +48,6 @@ const Footer = () => {
                 <img
                   src={twitter}
                   alt=""
-                  srcset=""
                   className="h-10 w-10"
                 />
               </div>
