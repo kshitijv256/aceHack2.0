@@ -22,7 +22,7 @@ const App = () => {
       <Themes />
       <Team />
       <Faq />
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }

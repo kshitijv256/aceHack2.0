@@ -2,7 +2,6 @@ import React from "react";
 import AceHackLogo from "/assets/images/AceHack-logo.png";
 import backgroundImage from "/assets/images/background-image.jpg";
 import {ImLocation2} from "react-icons/im";
-import venue from "/assets/images/location.png";
 
 const Home = () => {
   return (

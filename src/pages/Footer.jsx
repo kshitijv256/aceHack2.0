@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <div className="relative z-20 text-white flex flex-col w-full bg-gray-800">
       <div className="flex flex-col sm:flex-row my-4">
-        <div className="flex flex-col ml-24 sm:w-[25%]">
+        <div className="flex flex-col ml-16 sm:w-[25%] mt-4">
           <h1 className="text-2xl">Follow us</h1>
           <div className="flex flex-row items-center">
             <a href="https://www.instagram.com/acehack2.0/">
@@ -54,7 +54,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="flex flex-col ml-24">
+        <div className="flex flex-col ml-16 my-4">
           <h1 className="text-2xl">Contact us</h1>
           <p className="text-gray-400">email: ab@email.com</p>
         </div>

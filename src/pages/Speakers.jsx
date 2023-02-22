@@ -5,7 +5,7 @@ import sandeep from "/assets/images/speakers/sandeep.jpg";
 import kunal from "/assets/images/speakers/kunal.jpg";
 import osheen from "/assets/images/speakers/osheen.jpg";
 import keerti from "/assets/images/speakers/keerti.jpg";
-import praveen from "/assets/images/speakers/Praveen.png";
+import praveen from "/assets/images/speakers/Praveen.jpg";
 import ishan from "/assets/images/speakers/ishan.jpg";
 
 const Speakers = () => {
