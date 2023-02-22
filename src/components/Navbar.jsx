@@ -30,16 +30,16 @@ export const Navbar = () => {
         </div>
         <div>
           <div className="flex justify-between items-center">
-            <img src={AceHackSm} alt="AceHack2.0" className="hidden md:block object-contain" />
-            <div className="hidden space-x-6 md:flex flex-row items-center px-6">
-              <FancyButton id={"home"} data={"Register!"} />
+            <img src={AceHackSm} alt="AceHack2.0" className="hidden lg:block object-contain" />
+            <div className="hidden space-x-6 md:flex flex-row items-center justify-center lg:justify-end w-full px-6 py-4">
+              <FancyButton id={"home"} data={"Register"} />
               <FancyButton id={"about"} data={"About"} />
               <FancyButton id={"past"} data={"Acehack 1.0"} />
               <FancyButton id={"themes"} data={"Themes"} />
               <FancyButton id={"team"} data={"Team"} />
             </div>
-            <div className={`${scale} md:hidden gap-6 flex flex-col items-center py-20 w-full transition ease-in delay-100 duration-200`}>
-              <FancyButton id={"home"} data={"Register!"} />
+            <div className={`${scale} md:hidden gap-8 flex flex-col w-[60%] ml-[20%] transition ease-in delay-100 duration-200`}>
+              <FancyButton id={"home"} data={"Register"} />
               <FancyButton id={"about"} data={"About"} />
               <FancyButton id={"past"} data={"Acehack 1.0"} />
               <FancyButton id={"themes"} data={"Themes"} />

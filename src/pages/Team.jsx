@@ -8,6 +8,7 @@ import devdeep from "/assets/images/team/devdeep.jpg";
 import dipendu from "/assets/images/team/dipendu.jpg";
 import shanu from "/assets/images/team/shanu.jpeg";
 import snehasis from "/assets/images/team/snehasis.jpeg";
+import soumalya from "/assets/images/team/soumalya.jpeg";
 
 const Team = () => {
   return (
@@ -27,6 +28,7 @@ const Team = () => {
           <Member image={dipendu} name="Dipendu" role="Technical" />
           <Member image={snehasis} name="Snehasis Bhakat" role="Technical" />
           <Member image={shanu} name="Shanu" role="Technical" />
+          <Member image={soumalya} name="Soumalya" role="Technical" />
         </div>
       </section>
     </div>
