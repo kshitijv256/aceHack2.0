@@ -4,10 +4,10 @@ const FancyButton = (props) => {
   const handleClickScroll = () => {
     const element = document.getElementById(props.id);
     if (props.id === "home") {
-      document.documentElement.scrollTop=0;
+      document.documentElement.scroll({top:0, behavior: "smooth"});
     }
     else if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
     }
   };
   return (
