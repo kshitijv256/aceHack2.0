@@ -1,81 +1,59 @@
 import React from "react";
 import Icon from "../components/Icon";
 
-import instagram from "/assets/images/instagram.png";
-import linkedin from "/assets/images/linkedin.png";
-import twitter from "/assets/images/twitter.png";
-import email from "/assets/images/email.png";
+import { IconContext } from "react-icons";
+import { FaInstagram, FaLinkedinIn, FaTwitter, FaFacebook } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
+
 
 import uem from "/assets/images/uem.png";
 import acm from "/assets/images/acm.jpeg";
 
 const Footer = () => {
   return (
-    <div className="relative z-20 text-white flex flex-col w-full bg-gray-800">
-      <div className="flex flex-col sm:flex-row my-4">
-        <div className="flex flex-col ml-16 sm:w-[25%] mt-4">
-          <h1 className="text-2xl">Follow us</h1>
-          <div className="flex flex-row items-center">
-            <a href="https://www.instagram.com/acehack2.0/">
-              <div className="rounded-[50%] bg-fuchsia-500 p-1 my-3 mr-4 w-12">
-                <img
-                  src={instagram}
-                  alt=""
-                  className="h-10 w-10"
-                />
-              </div>
-            </a>
-            <a href="https://www.linkedin.com/company/acehack-2-0/">
-              <div className="rounded-[50%] bg-blue-500 p-1 my-3 mr-4 w-12">
-                <img
-                  src={linkedin}
-                  alt=""
-                  className="h-10 w-10"
-                />
-              </div>
-            </a>
-            <a href="">
-              <div className="rounded-[50%] bg-red-500 p-1 my-3 mr-4 w-12">
-                <img
-                  src={email}
-                  alt=""
-                  className="h-10 w-10"
-                />
-              </div>
-            </a>
-            <a href="">
-              <div className="rounded-[50%] bg-blue-400 p-1 my-3 mr-4 w-12">
-                <img
-                  src={twitter}
-                  alt=""
-                  className="h-10 w-10"
-                />
-              </div>
-            </a>
+    <IconContext.Provider value={{style: { fontSize: "1.5rem"}}}>
+    <div className="relative z-20 text-gray-200 flex flex-col w-full bg-gray-800">
+      <div className="flex flex-col sm:flex-row justify-between items-center sm:items-start px-10 py-5 text-center sm:text-left gap-10">
+        <div className="flex flex-col sm:justify-between gap-6">
+          <p className="text-2xl">Follow Us</p>
+          <div className="flex gap-5">
+            <FaFacebook/>
+            <FaInstagram />
+            <FaLinkedinIn />
+            <FaTwitter />
           </div>
         </div>
-        <div className="flex flex-col ml-16 my-4">
-          <h1 className="text-2xl">Contact us</h1>
-          <p className="text-gray-400">email: ab@email.com</p>
+        <div className="flex flex-col sm:justify-between gap-6">
+          <p className="text-2xl">Contact Us</p>
+          <div className="flex">
+          <AiOutlineMail />
+          <a 
+            href="mailto:sahitya.roy2020@uem.edu.in">
+            &nbsp;sahitya.roy2020@uem.edu.in
+          </a>
+          </div>
+        </div>
+        <div className="flex flex-col sm:justify-between gap-6">
+          <p className="text-2xl">Organizing Body</p>
+          <div className="flex">
+            <Icon icon={uem}/>
+            <Icon icon={acm}/>
+          </div>
         </div>
       </div>
-      <div className="sm:ml-24 flex flex-col sm:flex-row justify-end items-center px-4">
-        <Icon icon={uem} />
-        <Icon icon={acm} />
-      </div>
-      <div className="bg-gray-900 capitalize text-gray-500 p-2 text-right px-4 flex sm:flex-row flex-col items-start justify-between sm:px-8">
-        <div>
-          © 2023 Acehack 2.0
+      <div className="bg-gray-900 text-gray-500 py-2 px-8 flex sm:flex-row flex-col items-center text-center justify-between gap-2">
+        <div className="flex gap-2 flex-col sm:flex-row"> 
+          <p>© 2023 Acehack 2.0</p>
+          <p className="hidden sm:block">|</p>
+          <p>All Rights Reserved</p>
         </div>
-        <div>
-        All rights reserved.
-        </div>
-        <div>
-        designed by:&nbsp; <a href="https://github.com/kshitijv256" target={"_blank"} className="grad-text">kshitij verma</a> &
-        <a href="https://github.com/thedevildude" target={"_blank"} className="grad-text"> devdeep</a>
-        </div>
+        <p>
+        Designed By:&nbsp; <a href="https://github.com/kshitijv256" target={"_blank"} className="grad-text">Kshitij Verma</a> &
+        <a href="https://github.com/thedevildude" target={"_blank"} className="grad-text"> Devdeep Ghosh</a>
+        </p>
       </div>
     </div>
+    </IconContext.Provider>
   );
 };
 
