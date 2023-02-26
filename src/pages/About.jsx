@@ -12,26 +12,26 @@ const About = () => {
         </h1>
         <div className="text-[20px] text-justify flex flex-col gap-5 lg:px-56 px-5">
           <p>
-            This March, ACM-UEM Chapter proudly announces the comeback of our
-            in-person hackathon with{" "}
+            This Summer, ACM-UEM Chapter proudly announces the comeback of our
+           <b> in-person</b> hackathon with{" "}
             <span className="underline-offset-8 underline decoration-cyan-300">
               AceHack 2.0!
             </span>
           </p>
           <p>
-            AceHack is a 24 hour hackathon, an iniciative of{" "}
+            AceHack is a 24 hour hackathon, an initiative of{" "}
             <span className="underline-offset-8 underline decoration-cyan-300">
               UEM Jaipur ACM Student Chapter
             </span>{" "}
             which is being held in Jaipur, India. It is a 24 Hour Hackathon
-            where participants can build their own projects and compete with
+            where participants will build projects to solve problems and compete with
             other participants. The event is presided by the team of AceHack.
           </p>
           <p>
-            This year 2K23 we will focuing on Security Blockchain and others
-            stuffs, The moto of the hackathon is to ignite new ideas from
+            This year 2K23 we will focuing on Cyber Security, Blockchain and many others
+            domains, Our moto is to ignite new ideas from
             students that would alter and revolutionize the present day
-            situation in India. The Hackathon will give students chance to
+            situation in India. It will give students chance to
             showcase their innovative ideas and compete with their peers.
           </p>
           <p>

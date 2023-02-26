@@ -16,10 +16,10 @@ const Speakers = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <Member image={sandeep} name="Sandeep Jain" role="Founder & CEO at GeeksforGeeks" />
         <Member image={kunal} name="Kunal Kushwaha" role="DevRel manager at Civo, Founder at WeMakeDevs" />
-        <Member image={osheen} name="Osheen Mahajan" role="Co-founder Psych Up!" />
-        <Member image={keerti} name="Keerti Purswani" role="Youtuber, SDE-II at Intuit" />
-        <Member image={praveen} name="Praveen Kumar Purushothaman" role="Youtuber, Full Stack Web Developer" />
         <Member image={ishan} name="Ishan Sharma" role="Co-Founder at Markitup, Youtuber" />
+        <Member image={keerti} name="Keerti Purswani" role="Youtuber, SDE-II at Intuit" />
+        <Member image={osheen} name="Osheen Mahajan" role="Co-founder Psych Up!" />
+        <Member image={praveen} name="Praveen Kumar Purushothaman" role="Youtuber, Full Stack Web Developer" />
       </div>
       </section>
     </div>
