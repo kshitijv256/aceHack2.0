@@ -17,19 +17,13 @@ const Themes = () => {
         <h1 className="grad-text text-5xl font-bold">Themes</h1>
       </div>
       <div className="flex flex-col items-center mx-6">
-        <div className="flex sm:flex-row flex-col justify-evenly items-center w-full">
+        <div className="flex flex-row flex-wrap justify-evenly items-center w-full">
           <Item img={book} text="Education" />
           <Item img={doctor} text="Healthcare" />
-        </div>
-        <div className="flex sm:flex-row flex-col justify-evenly items-center w-full">
           <Item img={vr} text="AR / VR" />
           <Item img={development} text="Open Innovation" />
-        </div>
-        <div className="flex sm:flex-row flex-col justify-evenly items-center w-full">
           <Item img={thinkGreen} text="Environment" />
           <Item img={scale} text="Diversity" />
-        </div>
-        <div className="flex sm:flex-row flex-col justify-evenly items-center w-full">
           <Item img={energy} text="Energy" />
           <Item img={blockchain} text="Blockchain" />
         </div>
