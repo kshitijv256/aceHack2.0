@@ -10,9 +10,9 @@ const Faculty = () => {
     <div className="relative items-center justify-center bg-gray-900/30 backdrop-blur-lg w-full z-20 py-10">
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
         <div className="flex flex-row justify-center w-full">
-          <h1 className="grad-text font-bold text-5xl mb-10">
-            Faculty coordinators
-          </h1>{" "}
+          <h1 className="font-bold text-5xl mb-10 text-white">
+            <span className="grad-text">Faculty</span> coordinators
+          </h1>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <Member
