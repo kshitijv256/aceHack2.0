@@ -18,8 +18,12 @@ const Footer = () => {
           <p className="text-2xl">Follow Us</p>
           <div className="flex gap-5">
             <FaFacebook/>
-            <FaInstagram />
-            <FaLinkedinIn />
+            <a href="https://www.instagram.com/acehack2.0/">
+              <FaInstagram />
+            </a>
+            <a href="https://www.linkedin.com/company/acehack-2-0/">
+              <FaLinkedinIn />
+            </a>
             <FaTwitter />
           </div>
         </div>

@@ -10,6 +10,7 @@ import shanu from "/assets/images/team/shanu.jpeg";
 import snehasis from "/assets/images/team/snehasis.jpeg";
 import soumalya from "/assets/images/team/soumalya.jpeg";
 import rohit from "/assets/images/team/rohit.jpeg";
+import aman from "/assets/images/team/aman.jpeg";
 import swarnava from "/assets/images/team/swarnava.jpeg";
 
 const Team = () => {
@@ -29,6 +30,7 @@ const Team = () => {
           <Member image={devdeep} name="Devdeep Ghosh" role="Web Developer" />
           <Member image={swarnava} name="Swarnava Das" role="Operations" />
           <Member image={dipendu} name="Dipendu" role="Graphics Designer & Photographer" />
+          <Member image={aman} name="Aman Kumar" role="Graphics & Video editor" />
           <Member image={snehasis} name="Snehasis Bhakat" role="Operations" />
           <Member image={shanu} name="Shanu" role="Operations" />
           <Member image={soumalya} name="Soumalya" role="Operations" />
