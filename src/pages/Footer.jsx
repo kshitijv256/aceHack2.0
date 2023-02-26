@@ -28,7 +28,7 @@ const Footer = () => {
           <div className="flex">
           <AiOutlineMail />
           <a 
-            href="mailto:sahitya.roy2020@uem.edu.in">
+            href="mailto:sahitya.roy2020@uem.edu.in" target={"_blank"} >
             &nbsp;sahitya.roy2020@uem.edu.in
           </a>
           </div>

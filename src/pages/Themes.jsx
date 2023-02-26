@@ -12,7 +12,7 @@ import blockchain from "/assets/images/themes/blockchain.png";
 
 const Themes = () => {
   return (
-    <div id="themes" className="pt-24 text-white z-20 relative bg-blue-900/30 backdrop-blur-lg w-full py-6">
+    <div id="themes" className="py-24 text-white z-20 relative bg-blue-900/30 backdrop-blur-lg w-full">
       <div className="flex justify-center my-2">
         <h1 className="grad-text text-5xl font-bold">Themes</h1>
       </div>
