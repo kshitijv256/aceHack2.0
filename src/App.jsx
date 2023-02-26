@@ -9,6 +9,7 @@ import Footer from "./pages/Footer";
 import Speakers from "./pages/Speakers";
 import Menu from "./components/Menu";
 import Faq from "./pages/Faq";
+import Sponsor from "./pages/Sponsor";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Past />
       <Speakers />
       <Themes />
+      <Sponsor />
       <Team />
       <Faq />
       <Footer />
