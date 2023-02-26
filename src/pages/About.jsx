@@ -47,9 +47,9 @@ const About = () => {
             their creative drive, and their ingenious problem-solving skills.
           </p>
         </div>
-        <h1 className="text-5xl font-bold pt-12 pb-8 flex-wrap">
-          <span className="grad-text">ACM UEMJ</span> Chapter
-        </h1>
+        <h2 className="text-4xl font-bold pt-12 pb-8 flex-wrap">
+          <span className="grad-text">UEM JAIPUR ACM</span> STUDENT CHAPTER
+        </h2>
         <div className="text-[20px] text-justify flex flex-col gap-5 lg:px-56 px-5">
           <p>
             ACM, the world's largest educational and scientific computing

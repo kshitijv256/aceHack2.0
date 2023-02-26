@@ -3,14 +3,16 @@ import AceHackLogo from "/assets/images/AceHack-logo.png";
 import backgroundImage from "/assets/images/background-image.jpg";
 import {ImLocation2} from "react-icons/im";
 import FancyButton from "../components/FancyButton";
+import CountdownTimer from "../components/Timer";
 
 const Home = () => {
   return (
-    <div id="home" className="sticky top-0 z-0 mt-20 pb-20 text-white scroll-smooth">
+    <div id="home" className="sticky top-[-100px] z-0 mt-20 pb-20 text-white scroll-smooth">
       <div className="overlay"></div>
         <img className="bgVideo" src={backgroundImage} alt="aceHack background image" />
-      <div className="my-10 flex flex-col justify-center items-center">
-        <img alt="AceHack Logo" className="py-10 max-w-[80%]" src={AceHackLogo}/>
+      <div className="flex flex-col justify-start items-center">
+        <img alt="AceHack Logo" className="max-w-[80%]" src={AceHackLogo} width="50%"/>
+        <CountdownTimer targetDate={new Date('2023-04-01T00:00:00')} />
         <a className="text-black text-xl border-white  hover:text-white" href={"#"}>
           <FancyButton data="Register Now" id="register" />
         </a>
