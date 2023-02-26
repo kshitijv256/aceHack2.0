@@ -7,11 +7,11 @@ import CountdownTimer from "../components/Timer";
 
 const Home = () => {
   return (
-    <div id="home" className="sticky top-[-100px] z-0 mt-20 pb-20 text-white scroll-smooth">
+    <div id="home" className="sticky top-0 z-0 mt-20 pb-20 text-white scroll-smooth">
       <div className="overlay"></div>
         <img className="bgVideo" src={backgroundImage} alt="aceHack background image" />
       <div className="flex flex-col justify-start items-center">
-        <img alt="AceHack Logo" className="max-w-[80%]" src={AceHackLogo} width="50%"/>
+        <img alt="AceHack Logo" className="max-w-[80%]" src={AceHackLogo}/>
         <CountdownTimer targetDate={new Date('2023-04-01T00:00:00')} />
         <a className="text-black text-xl border-white  hover:text-white" href={"#"}>
           <FancyButton data="Register Now" id="register" />
