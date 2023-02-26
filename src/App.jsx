@@ -10,6 +10,7 @@ import Speakers from "./pages/Speakers";
 import Menu from "./components/Menu";
 import Faq from "./pages/Faq";
 import Sponsor from "./pages/Sponsor";
+import Faculty from "./pages/Faculty";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       <Themes />
       <Sponsor />
       <Team />
+      <Faculty />
       <Faq />
       <Footer />
     </>
