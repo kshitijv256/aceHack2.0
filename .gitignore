@@ -9,7 +9,7 @@ lerna-debug.log*
 
 note.txt
 
-.github/*
+*/workflows/*.yml
 
 
 
