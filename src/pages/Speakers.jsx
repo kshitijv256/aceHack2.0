@@ -3,7 +3,7 @@ import Member from "../components/Member";
 
 import sandeep from "/assets/images/speakers/sandeep.jpg";
 import kunal from "/assets/images/speakers/kunal.jpg";
-import osheen from "/assets/images/speakers/osheen.jpg";
+import shambhavi from "/assets/images/speakers/shambhavi.jpeg";
 import keerti from "/assets/images/speakers/keerti.jpg";
 import praveen from "/assets/images/speakers/Praveen.jpg";
 import ishan from "/assets/images/speakers/ishan.jpg";
@@ -18,7 +18,7 @@ const Speakers = () => {
         <Member image={kunal} name="Kunal Kushwaha" role="DevRel manager at Civo, Founder at WeMakeDevs" />
         <Member image={ishan} name="Ishan Sharma" role="Co-Founder at Markitup, Youtuber" />
         <Member image={keerti} name="Keerti Purswani" role="Youtuber, SDE-II at Intuit" />
-        <Member image={osheen} name="Osheen Mahajan" role="Co-founder Psych Up!" />
+        <Member image={shambhavi} name="Shambhavi Gupta" role="Youngest Data Science and DSA Educator |Instructor at Udemy" />
         <Member image={praveen} name="Praveen Kumar Purushothaman" role="Youtuber, Full Stack Web Developer" />
       </div>
       </section>

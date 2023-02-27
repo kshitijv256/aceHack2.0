@@ -7,7 +7,7 @@ const Sponsor = () => {
       id="sponsor"
       className="py-16 text-white z-20 relative bg-blue-900/30 backdrop-blur-lg w-full"
     >
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center text-center">
         <p className="text-4xl font-extrabold">
           Become a{" "}
           <span className="underline-offset-8 underline decoration-cyan-300">

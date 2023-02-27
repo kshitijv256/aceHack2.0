@@ -1,8 +1,8 @@
 import React from "react";
 import Member from "../components/Member";
 
-import sandeep from "/assets/images/speakers/sandeep.jpg";
-import kunal from "/assets/images/speakers/kunal.jpg";
+import vc from "/assets/images/faculty/vc.jpeg";
+import dipta from "/assets/images/faculty/dipta.jpeg";
 import sagarika from "/assets/images/faculty/sagarika.jpeg";
 
 const Faculty = () => {
@@ -10,24 +10,24 @@ const Faculty = () => {
     <div className="relative items-center justify-center bg-gray-900/30 backdrop-blur-lg w-full z-20 py-10">
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
         <div className="flex flex-row justify-center w-full">
-          <h1 className="font-bold text-5xl mb-10 text-white">
+          <h1 className="font-bold text-5xl mb-10 text-white text-center">
             <span className="grad-text">Faculty</span> coordinators
           </h1>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <Member
-            image={sandeep}
-            name="Sandeep Jain"
-            role="Founder & CEO at GeeksforGeeks"
+            image={vc}
+            name="Prof. Dr. Biswajoy Chatterjee"
+            role="Vice Chancellor, UEM Jaipur"
           />
           <Member
-            image={kunal}
-            name="Kunal Kushwaha"
-            role="DevRel manager at Civo, Founder at WeMakeDevs"
+            image={dipta}
+            name="Prof. Dipta Mukherjee"
+            role="Prof. CSE Dept, UEM Jaipur"
           />
           <Member
             image={sagarika}
-            name="Sagarika Ghosh"
+            name="Prof. Sagarika Ghosh"
             role="Prof. CSE Dept, UEM Jaipur"
           />
         </div>

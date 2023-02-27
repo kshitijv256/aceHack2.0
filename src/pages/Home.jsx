@@ -13,7 +13,7 @@ const Home = () => {
       <div className="flex flex-col justify-start items-center">
         <img alt="AceHack Logo" className="max-w-[80%]" src={AceHackLogo}/>
         <CountdownTimer targetDate={new Date('2023-04-01T00:00:00')} />
-        <a className="text-black text-xl border-white  hover:text-white" href={"#"}>
+        <a className="text-black text-xl border-white  hover:text-white z-40" href="https://lu.ma/acehack2.0" target={"_blank"}>
           <FancyButton data="Register Now" id="register" />
         </a>
         <h2 className="break-words text-center mt-8 mb-10 text-2xl flex items-center">
