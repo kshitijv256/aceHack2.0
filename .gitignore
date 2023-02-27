@@ -8,6 +8,8 @@ pnpm-debug.log*
 lerna-debug.log*
 
 note.txt
+build_and_deploy.yml
+
 
 node_modules
 dist

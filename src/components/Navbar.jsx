@@ -6,6 +6,7 @@ import { FaBars } from "react-icons/fa";
 import { MdOutlineClose } from "react-icons/md";
 
 export const Navbar = () => {
+  const [disp, set] = useState("hidden");
   const [closed, setClosed] = useState(true);
   const [scale, setScale] = useState("scale-0");
   const [height, setHeight] = useState("h-0");
@@ -15,6 +16,8 @@ export const Navbar = () => {
     else if (height == "min-h-screen") setHeight("h-0");
     if (scale === "scale-0") setScale("scale-100");
     else if (scale === "scale-100") setScale("scale-0");
+    if (disp === "hidden") set("flex");
+    else if (disp === "flex") set("hidden");
     setClosed(!closed);
   };
 
@@ -48,7 +51,7 @@ export const Navbar = () => {
               <FancyButton id={"team"} data={"Team"} />
             </div>
             <div
-              className={`${scale} md:hidden py-20 gap-8 flex flex-col w-[60%] ml-[20%] transition ease-in delay-100 duration-200`}
+              className={`${scale} md:hidden py-20 gap-8 ${disp} flex-col w-[60%] ml-[20%] transition ease-in delay-100 duration-200`}
             >
               <FancyButton data="Register Now" id="register" />
               <FancyButton id={"about"} data={"About"} />
