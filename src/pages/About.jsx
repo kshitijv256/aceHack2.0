@@ -28,7 +28,7 @@ const About = () => {
             other participants. The event is presided by the team of AceHack.
           </p>
           <p>
-            This year 2K23 we will focuing on Cyber Security, Blockchain and many others
+            This year 2K23 we will focusing on Cyber Security, Blockchain and many other
             domains, Our moto is to ignite new ideas from
             students that would alter and revolutionize the present day
             situation in India. It will give students chance to

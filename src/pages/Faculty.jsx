@@ -3,7 +3,7 @@ import Member from "../components/Member";
 
 import sandeep from "/assets/images/speakers/sandeep.jpg";
 import kunal from "/assets/images/speakers/kunal.jpg";
-import ishan from "/assets/images/speakers/ishan.jpg";
+import sagarika from "/assets/images/faculty/sagarika.jpeg";
 
 const Faculty = () => {
   return (
@@ -26,9 +26,9 @@ const Faculty = () => {
             role="DevRel manager at Civo, Founder at WeMakeDevs"
           />
           <Member
-            image={ishan}
-            name="Ishan Sharma"
-            role="Co-Founder at Markitup, Youtuber"
+            image={sagarika}
+            name="Sagarika Ghosh"
+            role="Prof. CSE Dept, UEM Jaipur"
           />
         </div>
       </section>
