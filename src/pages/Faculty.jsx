@@ -3,6 +3,7 @@ import Member from "../components/Member";
 
 import vc from "/assets/images/faculty/vc.jpeg";
 import dipta from "/assets/images/faculty/dipta.jpeg";
+import mrinal from "/assets/images/faculty/mrinal.jpeg";
 import sagarika from "/assets/images/faculty/sagarika.jpeg";
 
 const Faculty = () => {
@@ -19,6 +20,11 @@ const Faculty = () => {
             image={vc}
             name="Prof. Dr. Biswajoy Chatterjee"
             role="Vice Chancellor, UEM Jaipur"
+          />
+          <Member
+            image={mrinal}
+            name="Prof. Dr. Mrinal Kanti Sarkar"
+            role="HOD CSE Dept, UEM Jaipur"
           />
           <Member
             image={dipta}

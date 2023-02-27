@@ -44,7 +44,7 @@ export const Navbar = () => {
               className="hidden lg:block object-contain"
             />
             <div className="hidden space-x-6 md:flex flex-row items-center justify-center lg:justify-end w-full px-6 py-4">
-              <FancyButton data="Register Now" id="register" />
+              <FancyButton data="Pre-Register" id="register" />
               <FancyButton id={"about"} data={"About"} />
               <FancyButton id={"past"} data={"Acehack 1.0"} />
               <FancyButton id={"themes"} data={"Themes"} />
@@ -53,7 +53,7 @@ export const Navbar = () => {
             <div
               className={`${scale} md:hidden py-20 gap-8 ${disp} flex-col w-[60%] ml-[20%] transition ease-in delay-100 duration-200`}
             >
-              <FancyButton data="Register Now" id="register" />
+              <FancyButton data="Pre-Register" id="register" />
               <FancyButton id={"about"} data={"About"} />
               <FancyButton id={"past"} data={"Acehack 1.0"} />
               <FancyButton id={"themes"} data={"Themes"} />
