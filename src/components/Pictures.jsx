@@ -2,7 +2,7 @@ import React from "react"
 
 const Pictures = ({imgSrc}) => {
   return (
-    <div className="shrink-0 md:my-0 my-8">
+    <div className="shrink-0 md:my-0 my-8 p-10">
       <img src={imgSrc}
         className="rounded-lg shadow-2xl hover:shadow-cyan-700 max-h-64" />
     </div>
