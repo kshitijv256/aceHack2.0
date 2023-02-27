@@ -9,7 +9,7 @@ lerna-debug.log*
 
 note.txt
 build_and_deploy.yml
-static.yml
+
 
 node_modules
 dist
