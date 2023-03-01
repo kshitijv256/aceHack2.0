@@ -31,11 +31,11 @@ const Faculty = () => {
             name="Prof. Dipta Mukherjee"
             role="Prof. CSE Dept, UEM Jaipur"
           />
-          <Member
+          {/* <Member
             image={sagarika}
             name="Prof. Sagarika Ghosh"
             role="Prof. CSE Dept, UEM Jaipur"
-          />
+          /> */}
         </div>
       </section>
     </div>

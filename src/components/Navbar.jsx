@@ -44,7 +44,7 @@ export const Navbar = () => {
               className="hidden lg:block object-contain"
             />
             <div className="hidden space-x-6 md:flex flex-row items-center justify-center lg:justify-end w-full px-6 py-4">
-              <FancyButton data="Pre-Register" id="register" />
+              <FancyButton data="Register" id="register" />
               <FancyButton id={"about"} data={"About"} />
               <FancyButton id={"past"} data={"Acehack 1.0"} />
               <FancyButton id={"themes"} data={"Themes"} />

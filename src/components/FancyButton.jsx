@@ -6,7 +6,7 @@ const FancyButton = (props) => {
     if (props.id === "home") {
       document.documentElement.scroll({ top: 0, behavior: "smooth" });
     } else if (props.id === "register") {
-      window.open("https://lu.ma/acehack2.0", "_blank");
+      window.open("https://acehack.devfolio.co/", "_blank");
     } else if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }

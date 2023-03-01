@@ -18,7 +18,7 @@ const Past = () => {
     <IconContext.Provider
       value={{style: { fontSize: "8rem", position: "relative", color:"black" }}}
     >
-    <div id="past" className="pt-24 text-white z-20 relative bg-indigo-900/30 backdrop-blur-lg w-full py-10">
+    <div id="past" className="pt-24 text-white z-20 relative bg-indigo-900/30 backdrop-blur-lg w-full py-10 h-fit">
       <div className="flex flex-col items-center text-center">
         <h1 className="text-5xl font-bold pb-10 flex-wrap">
           <span className="grad-text">AceHack 1.0</span> Highlights!
