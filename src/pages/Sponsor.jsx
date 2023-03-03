@@ -22,26 +22,26 @@ const Sponsor = () => {
       className="py-16 text-white z-20 relative bg-blue-900/30 backdrop-blur-lg w-full"
     >
       <div className="flex flex-col items-center text-center">
-          <h1 className="text-5xl font-bold pb-10">Our <span className="grad-text">Assosiate </span>Sponsors</h1>
+          <h1 className="text-5xl font-bold pb-10">Our <span className="grad-text">Assosiate </span>Partners</h1>
           <div className="flex flex-row flex-wrap">
             <Icon icon={uem} height="h-20" />
             <Icon icon={acm} height="h-20" />
             <Icon icon={iic} height="h-20" />
           </div>
-          <h1 className="text-5xl font-bold py-10 titled">Title Sponsors</h1>
+          <h1 className="text-5xl font-bold py-10 "><span className="grad-text">Title</span> Sponsors</h1>
           <p>...Coming Soon</p>
-          <h1 className="text-5xl font-bold py-10 platinum">Platinum Sponsors</h1>
+          <h1 className="text-5xl font-bold py-10 "><span className="grad-text">Platinum</span> Sponsors</h1>
           <p>...Coming Soon</p>
-          <h1 className="text-5xl font-bold py-10 gold">Gold Sponsors</h1>
+          <h1 className="text-5xl font-bold py-10 "><span className="grad-text">Gold</span> Sponsors</h1>
           <p>...Coming Soon</p>
-          <h1 className="text-5xl font-bold py-10 silver">Silver Sponsors</h1>
+          <h1 className="text-5xl font-bold py-10 "><span className="grad-text">Silver</span> Sponsors</h1>
           <div className="flex flex-row flex-wrap w-4/5 justify-center items-center">
             <Icon icon={devfolio} height="h-28 px-4 py-6" />
             <a href="https://nsb.dev/polygon-bounty" target={"_blank"}>
               <Icon icon={polygon} height="h-28 px-4 py-6" />
             </a>
           </div>
-          <h1 className="text-5xl font-bold py-10 bronze">Bronze Sponsors</h1>
+          <h1 className="text-5xl font-bold py-10 "><span className="grad-text">Bronze</span> Sponsors</h1>
           <div className="flex flex-row flex-wrap w-4/5 justify-center items-center">
             <a href="https://nsb.dev/solana-bounty" target={"_blank"}>
               <Icon icon={solana} height="h-24 px-4 py-6" />
@@ -54,7 +54,7 @@ const Sponsor = () => {
             </a>
             <Icon icon={sticker_mule} height="h-28" />
           </div>
-          <h1 className="text-5xl font-bold py-10 kind">In Kind-Sponsors Sponsors</h1>
+          <h1 className="text-5xl font-bold py-10 "><span className="grad-text">In-Kind</span> Sponsors</h1>
           <div className="flex flex-row flex-wrap w-4/5 justify-center items-center">
             <Icon icon={echo3D} height="h-28" />
             <Icon icon={wolfram} height="h-24 px-4 py-6" />
