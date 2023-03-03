@@ -40,8 +40,8 @@ const Footer = () => {
         <div className="flex flex-col sm:justify-between gap-6">
           <p className="text-2xl">Organizing Body</p>
           <div className="flex">
-            <Icon icon={uem}/>
-            <Icon icon={acm}/>
+            <Icon icon={uem} height={'h-16'}/>
+            <Icon icon={acm} height={'h-16'}/>
           </div>
         </div>
       </div>
