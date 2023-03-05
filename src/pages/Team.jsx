@@ -1,6 +1,6 @@
 import React from "react";
 import Member from "../components/Member";
-import kshitij from "/assets/images/team/kshitij.jpg";
+import kshitij from "/assets/images/team/kshitij.jpeg";
 import sahitya from "/assets/images/team/sahitya.jpg";
 import amar from "/assets/images/team/amar.jpg";
 import priya from "/assets/images/team/priya.jpg";
@@ -12,6 +12,7 @@ import soumalya from "/assets/images/team/soumalya.jpeg";
 import rohit from "/assets/images/team/rohit.jpeg";
 import aman from "/assets/images/team/aman.jpeg";
 import swarnava from "/assets/images/team/swarnava.jpeg";
+import indira from "/assets/images/team/indira.jpeg";
 
 const Team = () => {
   return (
@@ -35,6 +36,7 @@ const Team = () => {
           <Member image={shanu} name="Shanu" role="Operations" />
           <Member image={soumalya} name="Soumalya" role="Operations" />
           <Member image={rohit} name="Rohit" role="Operations" />
+          <Member image={indira} name="Indira" role="Operations" />
         </div>
       </section>
     </div>
