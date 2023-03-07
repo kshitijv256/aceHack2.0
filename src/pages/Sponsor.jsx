@@ -78,7 +78,7 @@ const Sponsor = () => {
           <a href="https://www.wolfram.com/">
             <Icon icon={wolfram} height="h-24 px-4 py-6" />
           </a>
-          <a href="https://www.stickermule.com/en-in">
+          <a href="https://mule.to/p3tf">
             <Icon icon={sticker_mule} height="h-28" />
           </a>
           <a href="https://balsamiq.cloud/">
