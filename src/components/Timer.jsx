@@ -52,10 +52,7 @@ const ExpiredNotice = () => {
 const ShowCounter = ({ days, hours, minutes, seconds }) => {
   return (
     <div className="">
-      <a
-        href="https://tapasadhikary.com"
-        target="_blank"
-        rel="noopener noreferrer"
+      <div
         className="flex flex-row items-baseline py-6 text-xl"
       >
         <DateTimeDisplay value={days} type={'Days'}/>
@@ -65,7 +62,7 @@ const ShowCounter = ({ days, hours, minutes, seconds }) => {
         <DateTimeDisplay value={minutes} type={'Mins'}/>
         <p>:</p>
         <DateTimeDisplay value={seconds} type={'Seconds'}/>
-      </a>
+      </div>
     </div>
   );
 };

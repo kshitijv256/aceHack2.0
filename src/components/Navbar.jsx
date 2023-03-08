@@ -46,7 +46,7 @@ export const Navbar = () => {
             <div className="hidden space-x-6 md:flex flex-row items-center justify-center lg:justify-end w-full px-6 py-4">
               <FancyButton data="Register" id="register" />
               <FancyButton id={"about"} data={"About"} />
-              <FancyButton id={"past"} data={"Acehack 1.0"} />
+              <FancyButton id={"partner"} data={"Partners"} />
               <FancyButton id={"themes"} data={"Themes"} />
               <FancyButton id={"team"} data={"Team"} />
             </div>
@@ -55,7 +55,7 @@ export const Navbar = () => {
             >
               <FancyButton data="Pre-Register" id="register" />
               <FancyButton id={"about"} data={"About"} />
-              <FancyButton id={"past"} data={"Acehack 1.0"} />
+              <FancyButton id={"partner"} data={"Partners"} />
               <FancyButton id={"themes"} data={"Themes"} />
               <FancyButton id={"team"} data={"Team"} />
             </div>

@@ -15,6 +15,7 @@ import polygon from "/assets/images/sponsors/polygon.png";
 import solana from "/assets/images/sponsors/solana.svg";
 import filecoin from "/assets/images/sponsors/filecoin.png";
 import balsamiq from "/assets/images/sponsors/balsamiq.png";
+import beeseptor from "/assets/images/sponsors/beeseptor.svg";
 
 const Sponsor = () => {
   return (
@@ -27,9 +28,9 @@ const Sponsor = () => {
           Our <span className="grad-text">Assosiate </span>Partners
         </h1>
         <div className="flex flex-row flex-wrap">
-          <Icon icon={uem} height="h-20" />
-          <Icon icon={acm} height="h-20" />
-          <Icon icon={iic} height="h-20" />
+          <Icon icon={uem} height="h-28" />
+          <Icon icon={acm} height="h-28" />
+          <Icon icon={iic} height="h-28" />
         </div>
         <h1 className="text-5xl font-bold py-10 ">
           <span className="grad-text">Title</span> Sponsors
@@ -66,6 +67,9 @@ const Sponsor = () => {
           </a>
           <a href="https://nsb.dev/filecoin-bounty" target={"_blank"}>
             <Icon icon={filecoin} height="h-28 px-4 py-6" />
+          </a>
+          <a href="https://beeceptor.com/" target={"_blank"}>
+            <Icon icon={beeseptor} height="h-28 px-4 py-6" />
           </a>
         </div>
         <h1 className="text-5xl font-bold py-10 ">

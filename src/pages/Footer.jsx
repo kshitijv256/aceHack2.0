@@ -2,12 +2,13 @@ import React from "react";
 import Icon from "../components/Icon";
 
 import { IconContext } from "react-icons";
-import { FaInstagram, FaLinkedinIn, FaTwitter, FaFacebook } from "react-icons/fa";
+import { FaInstagram, FaLinkedinIn, FaTwitter, FaFacebook, FaTelegram } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 
 
 import uem from "/assets/images/uem.png";
 import acm from "/assets/images/acm.jpeg";
+import { MdCall } from "react-icons/md";
 
 const Footer = () => {
   return (
@@ -17,7 +18,6 @@ const Footer = () => {
         <div className="flex flex-col sm:justify-between gap-6">
           <p className="text-2xl">Follow Us</p>
           <div className="flex gap-5">
-            <FaFacebook/>
             <a href="https://www.instagram.com/acehack2.0/">
               <FaInstagram />
             </a>
@@ -25,9 +25,12 @@ const Footer = () => {
               <FaLinkedinIn />
             </a>
             <FaTwitter />
+            <a href="https://t.me/acehack2" target={"_blank"}>
+              <FaTelegram/>
+            </a>
           </div>
         </div>
-        <div className="flex flex-col sm:justify-between gap-6">
+        <div className="flex flex-col sm:justify-between gap-1">
           <p className="text-2xl">Contact Us</p>
           <div className="flex">
           <AiOutlineMail />
@@ -36,8 +39,10 @@ const Footer = () => {
             &nbsp;sahitya.roy2020@uem.edu.in
           </a>
           </div>
+          <div className="flex"><MdCall/><p> +91 7584926589</p></div>
+          <div className="flex"><MdCall/><p> +91 6202264540</p></div>
         </div>
-        <div className="flex flex-col sm:justify-between gap-6">
+        <div className="flex flex-col sm:justify-between">
           <p className="text-2xl">Organizing Body</p>
           <div className="flex">
             <Icon icon={uem} height={'h-16'}/>

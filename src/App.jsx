@@ -11,6 +11,7 @@ import Menu from "./components/Menu";
 import Faq from "./pages/Faq";
 import Sponsor from "./pages/Sponsor";
 import Faculty from "./pages/Faculty";
+import Partner from "./pages/Partner";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       <Speakers />
       <Themes />
       <Sponsor />
+      <Partner />
       <Team />
       <Faculty />
       <Faq />
