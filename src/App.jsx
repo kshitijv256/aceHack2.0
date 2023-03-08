@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import About from "./pages/About";
 import Past from "./pages/Past";
 import Themes from "./pages/Themes";
-import Team from "./pages/Team";
+import TeamSection from "./pages/TeamSection";
 import Footer from "./pages/Footer";
 import Speakers from "./pages/Speakers";
 import Menu from "./components/Menu";
@@ -25,7 +25,7 @@ const App = () => {
       <Themes />
       <Sponsor />
       <Partner />
-      <Team />
+      <TeamSection />
       <Faculty />
       <Faq />
       <Footer />
