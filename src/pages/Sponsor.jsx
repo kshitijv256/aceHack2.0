@@ -22,13 +22,13 @@ const Sponsor = () => {
   return (
     <div
       id="sponsor"
-      className="py-16 text-white z-20 relative bg-blue-900/30 backdrop-blur-lg w-full"
+      className="py-16 text-white z-20 relative bg-[#23293f] w-full"
     >
       <div className="flex flex-col items-center text-center">
         <h1 className="text-5xl font-bold pb-10">
           Our <span className="grad-text">Associate </span>Partners
         </h1>
-        <div className="flex flex-row flex-wrap">
+        <div className="flex flex-row flex-wrap justify-center w-4/5">
           <Icon icon={rpLogo} height="h-28" />
           <Icon icon={uem} height="h-28" />
           <Icon icon={acm} height="h-28" />

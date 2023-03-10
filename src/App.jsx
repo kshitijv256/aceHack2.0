@@ -10,7 +10,6 @@ import Speakers from "./pages/Speakers";
 import Faq from "./pages/Faq";
 import Sponsor from "./pages/Sponsor";
 import Faculty from "./pages/Faculty";
-import Partner from "./pages/Partner";
 import Prizes from "./pages/Prizes";
 import Why from "./pages/why";
 
@@ -24,7 +23,6 @@ const App = () => {
       <Why/>
       <Prizes />
       <Sponsor />
-      <Partner />
       <Past />
       <Speakers />
       <TeamSection />

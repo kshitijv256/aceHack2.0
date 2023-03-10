@@ -13,7 +13,7 @@ import ml from "/assets/images/themes/ml.png";
 
 const Themes = () => {
   return (
-    <div id="themes" className="py-24 text-white z-20 relative bg-blue-900/30 backdrop-blur-lg w-full">
+    <div id="themes" className="py-24 text-white z-20 relative bg-[rgba(0,16,41,1)] w-full">
       <div className="flex justify-center my-2">
         <h1 className="grad-text text-5xl font-bold">Themes</h1>
       </div>

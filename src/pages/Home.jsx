@@ -29,7 +29,7 @@ const Home = () => {
         alt="aceHack background image"
       />
       <div className="flex flex-col justify-start items-center">
-        <img alt="AceHack Logo" className="max-w-[80%]" src={AceHackLogo} />
+        <img alt="AceHack Logo" className="max-w-[80%] mb-6" src={AceHackLogo} />
         <CountdownTimer targetDate={new Date("2023-04-01T00:00:00")} />
         <div className="flex flex-row flex-wrap w-full justify-center gap-4">
         <div
