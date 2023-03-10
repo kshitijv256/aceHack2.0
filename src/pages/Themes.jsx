@@ -9,6 +9,7 @@ import thinkGreen from "/assets/images/themes/think-green.png";
 import server from "/assets/images/themes/server.png";
 import iot from "/assets/images/themes/iot.png";
 import blockchain from "/assets/images/themes/blockchain.png";
+import ml from "/assets/images/themes/ml.png";
 
 const Themes = () => {
   return (
@@ -17,8 +18,9 @@ const Themes = () => {
         <h1 className="grad-text text-5xl font-bold">Themes</h1>
       </div>
       <div className="flex flex-col items-center mx-6">
-        <div className="flex flex-row flex-wrap justify-evenly items-center w-full">
+        <div className="flex flex-row flex-wrap justify-evenly items-center w-full max-h lg:w-4/5">
           <Item img={blockchain} text="Blockchain" />
+          <Item img={ml} text="AI and DATA" />
           <Item img={doctor} text="Healthcare" />
           <Item img={vr} text="AR / VR" />
           <Item img={development} text="Open Innovation" />
