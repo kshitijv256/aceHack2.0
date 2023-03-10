@@ -13,15 +13,14 @@ const TeamSection = () => {
         </div>
         <div className="flex flex-row flex-wrap gap-2 justify-center">
           <TeamMember member={teamData.sahitya}/>
-          <TeamMember member={teamData.priya}/>
           <TeamMember member={teamData.amar}/>
+          <TeamMember member={teamData.priya}/>
           <TeamMember member={teamData.kshitij}/>
           <TeamMember member={teamData.devdeep}/>
           <TeamMember member={teamData.sameer}/>
           <TeamMember member={teamData.swarnava}/>
           <TeamMember member={teamData.dipendu}/>
           <TeamMember member={teamData.aman}/>
-          <TeamMember member={teamData.snehasis}/>
           <TeamMember member={teamData.shanu}/>
           <TeamMember member={teamData.soumalya}/>
           <TeamMember member={teamData.rohit}/>

@@ -26,7 +26,7 @@ const Sponsor = () => {
     >
       <div className="flex flex-col items-center text-center">
         <h1 className="text-5xl font-bold pb-10">
-          Our <span className="grad-text">Assosiate </span>Partners
+          Our <span className="grad-text">Associate </span>Partners
         </h1>
         <div className="flex flex-row flex-wrap">
           <Icon icon={rpLogo} height="h-28" />

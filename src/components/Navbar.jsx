@@ -53,7 +53,7 @@ export const Navbar = () => {
             <div
               className={`${scale} md:hidden py-20 gap-8 ${disp} flex-col w-[60%] ml-[20%] transition ease-in delay-100 duration-200`}
             >
-              <FancyButton data="Pre-Register" id="register" />
+              <FancyButton data="Register" id="register" />
               <FancyButton id={"about"} data={"About"} />
               <FancyButton id={"partner"} data={"Partners"} />
               <FancyButton id={"themes"} data={"Themes"} />
