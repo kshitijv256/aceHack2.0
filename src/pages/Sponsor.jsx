@@ -16,6 +16,7 @@ import solana from "/assets/images/sponsors/solana.svg";
 import filecoin from "/assets/images/sponsors/filecoin.png";
 import balsamiq from "/assets/images/sponsors/balsamiq.png";
 import beeseptor from "/assets/images/sponsors/beeseptor.svg";
+import rpLogo from "/assets/images/sponsors/rpLogo.jpg";
 
 const Sponsor = () => {
   return (
@@ -28,6 +29,7 @@ const Sponsor = () => {
           Our <span className="grad-text">Assosiate </span>Partners
         </h1>
         <div className="flex flex-row flex-wrap">
+          <Icon icon={rpLogo} height="h-28" />
           <Icon icon={uem} height="h-28" />
           <Icon icon={acm} height="h-28" />
           <Icon icon={iic} height="h-28" />
