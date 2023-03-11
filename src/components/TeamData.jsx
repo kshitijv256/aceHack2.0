@@ -33,6 +33,16 @@ export const devdeep = {
   name: "Devdeep Ghosh",
   role: "Web Developer",
   image: devdeepImg,
+  linkedin: (
+    <a href="https://www.linkedin.com/in/devdeep-ghosh-34774817a/" target={"_blank"}>
+      <FaLinkedinIn color="white" />
+    </a>
+  ),
+  github: (
+    <a href="https://github.com/thedevildude" target={"_blank"}>
+      <FaGithub color="white" />
+    </a>
+  ),
 };
 export const swarnava = {
   name: "Swarnava Das",
