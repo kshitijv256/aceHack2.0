@@ -7,8 +7,24 @@ const Prizes = () => {
         <div className="flex flex-row justify-center mb-6">
             <h1 className="grad-text text-5xl font-bold">Prizes</h1>
         </div>
-        <div className="border-double border-x-[16px] border-blue-400 bg-gray-900 w-4/5 text-center pt-8">
-                <p className="text-4xl text-cyan-200 font-semibold p-6 animate-bounce-slow">Total worth above ₹3,50,000</p>
+        <div className="border-double border-x-[16px] border-blue-400 bg-gray-900 w-4/5 text-center pt-8 flex justify-evenly">
+                {/* <p className="text-4xl text-cyan-200 font-semibold p-6 animate-bounce-slow">Total worth above ₹3,50,000</p> */}
+                <div className="flex flex-col">
+                    <h2>1st Prize</h2>
+                    <p className="text-2xl text-cyan-200 font-semibold p-6">₹ 40,000</p>
+                </div>
+                <div className="flex flex-col">
+                    <h2>1st Prize</h2>
+                    <p className="text-2xl text-cyan-200 font-semibold p-6">₹ 30,000</p>
+                </div>
+                <div className="flex flex-col">
+                    <h2>1st Prize</h2>
+                    <p className="text-2xl text-cyan-200 font-semibold p-6">₹ 20,000</p>
+                </div>
+                <div className="flex flex-col">
+                    <h2>Spl. prize for Female participants</h2>
+                    <p className="text-2xl text-cyan-200 font-semibold p-6">₹ 10,000</p>
+                </div>
             </div>
       </div>
     </div>
