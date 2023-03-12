@@ -42,9 +42,8 @@ const Home = () => {
           className="bg-cyan-500 rounded-md hover:bg-cyan-400"
           style={{ height: "44px", width: "312px" }}
         >
-          <a href="https://t.me/acehack2" className="flex h-full w-full justify-center items-center text-xl font-semibold" target={"_blank"}>
+          <a href="https://linktr.ee/acehack" className="flex h-full w-full justify-center items-center text-xl font-semibold" target={"_blank"}>
             <p>Join Our Community &nbsp; </p>
-            <FaTelegram/>
           </a>
         </div>
         </div>

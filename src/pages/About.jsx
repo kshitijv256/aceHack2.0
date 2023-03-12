@@ -19,7 +19,7 @@ const About = () => {
             </span>{" "} in asssosiation with{" "}<span className="underline-offset-8 underline decoration-cyan-300">Rajasthan Police.</span>  
             &nbsp; Which is being held in Jaipur, India. It is a 24 Hour Hackathon
             where participants will build projects to solve problems and compete with
-            other participants. The event is presided by the team of AceHack.
+            other participants and innovate for society.
           </p>
           <p>
             Our moto is to ignite new ideas from
