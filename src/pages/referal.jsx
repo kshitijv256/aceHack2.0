@@ -15,7 +15,7 @@ const Referal = () => {
       <div className="flex justify-start px-20">
         <h1 className="text-4xl font-bold">Refer and Earn</h1>
       </div>
-      <div className="flex flex-col items-start text-left text-xl pl-20 gap-4 pt-6">
+      <div className="flex flex-col items-start text-left text-xl pl-4 md:pl-20 gap-4 pt-6">
         <p className="flex items-center gap-2"><FaArrowRight/>
           If you cross 100+ registration from your referral link then you are
           eligible for the contest.
