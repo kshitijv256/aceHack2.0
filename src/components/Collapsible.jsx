@@ -9,10 +9,10 @@ const Collapsible = (props) => {
       };
   return (
     <div>
-      <button onClick={toggle} className="bg-red-400 px-2 py-1">{props.label}</button>
+      <button onClick={toggle} className="text-xl px-2 py-1">{props.label}</button>
       {open && (
         <div>
-          <h4 className="text-5xl">{props.content}</h4>
+          <h4 className="text-lg bg-[#212a39] px-4 py-2 rounded-b-lg">{props.content}</h4>
         </div>
       )}
     </div>

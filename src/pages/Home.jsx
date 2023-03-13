@@ -36,7 +36,7 @@ const Home = () => {
             <Icon icon={uem} height={'h-16'}/>
             <Icon icon={acm} height={'h-16'}/>
         </div>
-        <img alt="AceHack Logo" className="min-w-[45%] max-w-[80%] mb-6 md:mb-0" src={AceHackLogo} />
+        <img alt="AceHack Logo" className="min-w-[30%] w-[40%] max-w-[80%] mb-6 md:mb-0" src={AceHackLogo} />
         <CountdownTimer targetDate={new Date("2023-04-01T00:00:00")} />
         <div className="flex flex-row flex-wrap w-full justify-center gap-4 mb-6 md:mb-0">
         <div
