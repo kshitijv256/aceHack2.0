@@ -12,7 +12,7 @@ const Referal = () => {
       id="referal"
       className="py-12 text-white z-20 relative bg-[#171f2c] w-full"
     >
-      <div className="flex justify-start px-20">
+      <div className="flex justify-start pl-4 md:pl-20">
         <h1 className="text-4xl font-bold">Refer and Earn</h1>
       </div>
       <div className="flex flex-col items-start text-left text-xl pl-4 md:pl-20 gap-4 pt-6">

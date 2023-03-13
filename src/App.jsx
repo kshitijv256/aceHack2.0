@@ -17,8 +17,8 @@ import Referal from "./pages/referal";
 const App = () => {
   return (
     <>
-      <Navbar/>
       <Home />
+      <Navbar/>
       <About />
       <Themes />
       <Why/>
