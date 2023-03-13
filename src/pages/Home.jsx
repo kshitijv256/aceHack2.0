@@ -1,7 +1,7 @@
 import React from "react";
 import AceHackLogo from "/assets/images/AceHack-logo.png";
 import backgroundImage from "/assets/images/background-image.jpg";
-import { ImLocation2, ImTelegram } from "react-icons/im";
+import { ImLocation2 } from "react-icons/im";
 import CountdownTimer from "../components/Timer";
 import Icon from "../components/Icon";
 import uem from "/assets/images/uem.png";
@@ -31,14 +31,14 @@ const Home = () => {
         alt="aceHack background image"
       />
       <div className="flex flex-col justify-start items-center">
-        <div className="w-full flex flex-row flex-wrap justify-end">
+        <div className="w-full flex flex-row justify-end mb-12 md:mb-0">
             <Icon icon={rpLogo} height={'h-16'}/>
             <Icon icon={uem} height={'h-16'}/>
             <Icon icon={acm} height={'h-16'}/>
         </div>
-        <img alt="AceHack Logo" className="min-w-[45%] max-w-[80%]" src={AceHackLogo} />
+        <img alt="AceHack Logo" className="min-w-[45%] max-w-[80%] mb-6 md:mb-0" src={AceHackLogo} />
         <CountdownTimer targetDate={new Date("2023-04-01T00:00:00")} />
-        <div className="flex flex-row flex-wrap w-full justify-center gap-4">
+        <div className="flex flex-row flex-wrap w-full justify-center gap-4 mb-6 md:mb-0">
         <div
           className="apply-button"
           data-hackathon-slug="acehack"

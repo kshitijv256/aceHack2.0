@@ -11,7 +11,6 @@ const About = () => {
           <span className="grad-text">AceHack 2.0</span> Hackathon is here!
         </h1>
         <div className="text-[20px] text-justify flex flex-col gap-5 lg:px-56 px-5">
-          
           <p>
             AceHack is a 24 hour hackathon, an initiative of{" "}
             <span className="underline-offset-8 underline decoration-cyan-300">
