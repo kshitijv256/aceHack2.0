@@ -23,7 +23,7 @@ export const Navbar = () => {
 
   return (
     <div
-      className={`bg-gray-900/30 w-full fixed top-0 z-30 backdrop-blur-md md:h-auto ${height}`}
+      className={`bg-gray-900/30 w-full sticky top-0 z-30 backdrop-blur-md md:h-auto ${height}`}
     >
       <IconContext.Provider
         value={{
@@ -51,17 +51,24 @@ export const Navbar = () => {
               </a>
               <FancyButton id={"themes"} data={"Themes"} />
               <FancyButton id={"team"} data={"Team"} />
+              <FancyButton id={"faq"} data={"FAQ"} />
             </div>
             <div
               className={`${scale} md:hidden py-20 gap-8 ${disp} flex-col w-[60%] ml-[20%] transition ease-in delay-100 duration-200`}
             >
               <FancyButton data="Register" id="register" />
               <FancyButton id={"about"} data={"About"} />
-              <a href="https://lu.ma/acehack-he" target={"_blank"}>
-                <FancyButton id={"partner"} data={"Join Us"} />
-              </a>
+              <FancyButton
+                id={"partner"}
+                data={
+                  <a href="https://lu.ma/acehack-he" target={"_blank"}>
+                    Join Us
+                  </a>
+                }
+              />
               <FancyButton id={"themes"} data={"Themes"} />
               <FancyButton id={"team"} data={"Team"} />
+              <FancyButton id={"faq"} data={"FAQ"} />
             </div>
           </div>
         </div>

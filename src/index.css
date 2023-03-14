@@ -70,3 +70,9 @@
   text-shadow: 0 0 .5vw #a26f91, 0 0 1.5vw #bf7ca8, 0 0 5vw #bf7ca8, 0 0 5vw #bf7ca8, 0 0 .2vw #bf7ca8, .5vw .5vw .1vw #6c3c9d;
   color: #c9c8cd;
 }
+
+.hide {
+  height: 0px;
+  overflow: hidden;
+  transition: height ease 0.6s;
+}

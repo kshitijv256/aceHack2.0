@@ -5,7 +5,7 @@ import book from "/assets/images/themes/book.png";
 import doctor from "/assets/images/themes/doctor.png";
 import vr from "/assets/images/themes/vr.png";
 import development from "/assets/images/themes/development.png";
-import thinkGreen from "/assets/images/themes/think-green.png";
+import cloud from "/assets/images/themes/cloud.png";
 import server from "/assets/images/themes/server.png";
 import iot from "/assets/images/themes/iot.png";
 import blockchain from "/assets/images/themes/blockchain.png";
@@ -24,7 +24,7 @@ const Themes = () => {
           <Item img={doctor} text="Healthcare" />
           <Item img={vr} text="AR / VR" />
           <Item img={development} text="Open Innovation" />
-          <Item img={thinkGreen} text="Environment" />
+          <Item img={cloud} text="Cloud" />
           <Item img={server} text="Cyber Security" />
           <Item img={iot} text="Internet of Things" />
           <Item img={book} text="Education" />

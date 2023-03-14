@@ -2,7 +2,7 @@ import React from "react";
 import Icon from "../components/Icon";
 
 import { IconContext } from "react-icons";
-import { FaInstagram, FaLinkedinIn, FaTwitter, FaFacebook, FaTelegram } from "react-icons/fa";
+import { FaInstagram, FaLinkedinIn, FaTwitter, FaFacebook, FaTelegram, FaDiscord } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 
 
@@ -24,9 +24,14 @@ const Footer = () => {
             <a href="https://www.linkedin.com/company/acehack-2-0/">
               <FaLinkedinIn />
             </a>
+            <a href="https://twitter.com/AceHack_uemj" target={"_blank"}>
             <FaTwitter />
+            </a>
             <a href="https://t.me/acehack2" target={"_blank"}>
               <FaTelegram/>
+            </a>
+            <a href="https://discord.com/invite/RyUs94pSNT" target={"_blank"}>
+              <FaDiscord/>
             </a>
           </div>
         </div>
@@ -51,6 +56,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-gray-900 text-gray-500 py-2 px-8 flex sm:flex-row flex-col items-center text-center justify-between gap-2">
+        <div className="mx-32"></div>
         <div className="flex gap-2 flex-col sm:flex-row"> 
           <p>© 2023 Acehack 2.0</p>
           <p className="hidden sm:block">|</p>

@@ -8,7 +8,7 @@ import iic from "/assets/images/iic.jfif";
 
 import echo3D from "/assets/images/sponsors/echo3D.png";
 import sticker_mule from "/assets/images/sponsors/sticker_mule.png";
-import wolfram from "/assets/images/sponsors/wolfram.svg";
+import wolfram from "/assets/images/sponsors/Wolfram.jpg";
 import devfolio from "/assets/images/sponsors/devfolio.png";
 import replit from "/assets/images/sponsors/replit.png";
 import polygon from "/assets/images/sponsors/polygon.png";
@@ -78,16 +78,16 @@ const Sponsor = () => {
           <span className="grad-text">In-Kind</span> Sponsors
         </h1>
         <div className="flex flex-row flex-wrap w-4/5 justify-center items-center">
-          <a href="https://www.echo3d.com/">
+          <a href="https://www.echo3d.com/" target={"_blank"}>
           <Icon icon={echo3D} height="h-28" />
           </a>
-          <a href="https://www.wolfram.com/">
-            <Icon icon={wolfram} height="h-24 px-4 py-6" />
+          <a href="https://www.wolfram.com/language" target={"_blank"}>
+            <Icon icon={wolfram} height="h-24 " />
           </a>
-          <a href="https://mule.to/p3tf">
+          <a href="https://mule.to/p3tf" target={"_blank"}>
             <Icon icon={sticker_mule} height="h-28" />
           </a>
-          <a href="https://balsamiq.cloud/">
+          <a href="https://balsamiq.cloud/" target={"_blank"}>
             <Icon icon={balsamiq} height="h-28" />
           </a>
         </div>

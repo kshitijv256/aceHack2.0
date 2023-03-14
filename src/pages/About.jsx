@@ -11,7 +11,6 @@ const About = () => {
           <span className="grad-text">AceHack 2.0</span> Hackathon is here!
         </h1>
         <div className="text-[20px] text-justify flex flex-col gap-5 lg:px-56 px-5">
-          
           <p>
             AceHack is a 24 hour hackathon, an initiative of{" "}
             <span className="underline-offset-8 underline decoration-cyan-300">
@@ -19,7 +18,7 @@ const About = () => {
             </span>{" "} in asssosiation with{" "}<span className="underline-offset-8 underline decoration-cyan-300">Rajasthan Police.</span>  
             &nbsp; Which is being held in Jaipur, India. It is a 24 Hour Hackathon
             where participants will build projects to solve problems and compete with
-            other participants. The event is presided by the team of AceHack.
+            other participants and innovate for society.
           </p>
           <p>
             Our moto is to ignite new ideas from

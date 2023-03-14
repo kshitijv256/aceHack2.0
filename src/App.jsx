@@ -12,16 +12,18 @@ import Sponsor from "./pages/Sponsor";
 import Faculty from "./pages/Faculty";
 import Prizes from "./pages/Prizes";
 import Why from "./pages/why";
+import Referal from "./pages/referal";
 
 const App = () => {
   return (
     <>
-      <Navbar/>
       <Home />
+      <Navbar/>
       <About />
       <Themes />
       <Why/>
       <Prizes />
+      <Referal/>
       <Sponsor />
       <Past />
       <Speakers />

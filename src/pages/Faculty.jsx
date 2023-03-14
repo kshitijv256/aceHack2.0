@@ -4,7 +4,7 @@ import Member from "../components/Member";
 import vc from "/assets/images/faculty/vc.jpeg";
 import dipta from "/assets/images/faculty/dipta.jpeg";
 import mrinal from "/assets/images/faculty/mrinal.jpeg";
-import sagarika from "/assets/images/faculty/sagarika.jpeg";
+import sagarika from "/assets/images/faculty/sagarika1.jpeg";
 
 const Faculty = () => {
   return (
@@ -31,11 +31,11 @@ const Faculty = () => {
             name="Prof. Dipta Mukherjee"
             role="Prof. CSE Dept, UEM Jaipur"
           />
-          {/* <Member
+          <Member
             image={sagarika}
             name="Prof. Sagarika Ghosh"
             role="Prof. CSE Dept, UEM Jaipur"
-          /> */}
+          />
         </div>
       </section>
     </div>
