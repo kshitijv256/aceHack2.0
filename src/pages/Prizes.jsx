@@ -64,11 +64,11 @@ const Prizes = () => {
               title="Rising TecknoKing:"
               prize="$ 250"
             />
-            <PrizeItem color="text-cyan-300" title="Wolfram:" prize="$ 375" />
+            <PrizeItem color="text-cyan-300" title="Wolfram:" prize="$ 375*" />
             <PrizeItem
               color="text-cyan-300"
               title="Beeceptor showcase:"
-              prize="₹ 5000"
+              prize="₹ 5000*"
             />
             <PrizeItem
               color="text-cyan-300"
@@ -81,8 +81,8 @@ const Prizes = () => {
           </div>
         </div>
         <div className="w-4/5 flex flex-col items-end">
-          <h1 className="text-2xl font-semibold mt-4 mb-2 text-gray-300">
-            *Terms and conditions
+          <h1 className="text-2xl font-semibold mt-4 mb-2 text-gray-400">
+            * Terms and conditions
           </h1>
           <Collapsible label="Beeceptor Instructions +" style="pl-6 text-right">
             <h1 className="text-xl font-semibold my-3">
