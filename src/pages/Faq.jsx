@@ -10,13 +10,16 @@ const Faq = () => {
       <div className="flex flex-col">
         <h1 className="text-4xl font-bold">FAQs</h1>
         <Collapsible
-          label="What is a Hackathon?"
-          content="A hackathon is a design sprint-like event in which computer 
+          label="What is a Hackathon?" 
+          >
+            <p>
+            A hackathon is a design sprint-like event in which computer 
           programmers and others involved in software development, 
           including graphic designers, interface designers, project managers, 
           domain experts, and others, collaborate intensively on software projects. 
-          A hackathon typically lasts between a day and a week."
-        />
+          A hackathon typically lasts between a day and a week.
+            </p>
+        </Collapsible>
       </div>
     </div>
   );
