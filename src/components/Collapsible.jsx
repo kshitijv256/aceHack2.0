@@ -8,12 +8,12 @@ const Collapsible = (props) => {
   };
   const contentRef = useRef();
   return (
-    <div>
+    <div className={`${props.style}`}>
       <button onClick={toggle} className="text-xl px-2 py-1">
         {props.label}
       </button>
       <div
-        className="hide"
+        className="hide text-left"
         ref={contentRef}
         style={
           open

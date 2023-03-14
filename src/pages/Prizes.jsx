@@ -9,13 +9,13 @@ const Prizes = () => {
         <div className="flex flex-row justify-center mb-6">
           <h1 className="grad-text text-5xl font-bold">Prizes</h1>
         </div>
-        <div className="border-double border-x-[16px] border-blue-400 bg-gray-900 w-4/5 text-center pt-8 flex flex-col flex-wrap justify-evenly">
+        <div className="border-double border-x-[16px] border-blue-300 bg-gray-900 w-4/5 text-center pt-8 flex flex-col flex-wrap justify-evenly">
           <PrizeItem
             title="1st Prize"
             prize="₹ 40,000"
             color="text-amber-300"
           />
-          <PrizeItem title="2nd Prize" prize="₹ 30,000" color="text-zinc-300" />
+          <PrizeItem title="2nd Prize" prize="₹ 30,000" color="text-emerald-300" />
           <PrizeItem title="3rd Prize" prize="₹ 20,000" color="text-blue-300" />
           <PrizeItem
             title="Special prize for top Female participant"
@@ -23,7 +23,7 @@ const Prizes = () => {
             color="text-pink-300"
           />
           <PrizeItem
-            color="text-blue-300"
+            color="text-purple-300"
             title="4th-10th Prize"
             prize="AceHack Swag Box"
           />
@@ -32,7 +32,7 @@ const Prizes = () => {
           <h2 className="text-4xl font-bold px-4 py-10 grad-text">
             Sponsor Track
           </h2>
-          <div className="border-double border-x-[16px] border-cyan-400 bg-gray-900 w-4/5 text-center pt-8 flex flex-col flex-wrap justify-evenly">
+          <div className="border-double border-x-[16px] border-cyan-300 bg-gray-900 w-4/5 text-center pt-8 flex flex-col flex-wrap justify-evenly">
             <PrizeItem
               color="text-cyan-300"
               title="Best hack built on Ethereum + Polygon:"
@@ -80,11 +80,11 @@ const Prizes = () => {
             />
           </div>
         </div>
-        <div className="w-4/5 flex flex-col justify-end">
-          <h1 className="text-2xl font-semibold my-4 text-gray-300">
-            Terms and conditions
+        <div className="w-4/5 flex flex-col items-end">
+          <h1 className="text-2xl font-semibold mt-4 mb-2 text-gray-300">
+            *Terms and conditions
           </h1>
-          <Collapsible label="Beeceptor Instructions">
+          <Collapsible label="Beeceptor Instructions +" style="pl-6 text-right">
             <h1 className="text-xl font-semibold my-3">
               To participate in this award category you need to do the
               following:
@@ -119,7 +119,7 @@ const Prizes = () => {
               </p>
             </div>
           </Collapsible>
-          <Collapsible label="Wolfram Instructions">
+          <Collapsible label="Wolfram Instructions +" style="pl-6 text-right">
             <div className="flex flex-col gap-1 my-3">
             <p>
               -{">"} Access to Wolfram|One for all your participants for thirty
