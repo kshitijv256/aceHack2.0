@@ -8,7 +8,7 @@ import project from "/assets/images/why/project-development-icon.png"
 
 const Why = () => {
     return (
-        <div className="py-12 w-full bg-gray-900 relative z-20 text-white">
+        <div className="py-12 w-full bg-gray-900 relative z-20 text-white scroll-smooth">
         <div className="flex flex-col items-center">
             <div className="flex flex-row justify-center">
                 <h1 className="px-2  text-center text-5xl font-bold my-4">Why should you attend<span className="grad-text"> AceHack 2.0?</span></h1>

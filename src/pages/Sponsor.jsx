@@ -22,7 +22,7 @@ const Sponsor = () => {
   return (
     <div
       id="sponsor"
-      className="py-16 text-white z-20 relative bg-[#23293f] w-full"
+      className="py-16 text-white z-20 relative bg-[#23293f] w-full scroll-smooth"
     >
       <div className="flex flex-col items-center text-center">
         <h1 className="text-5xl font-bold pb-10">

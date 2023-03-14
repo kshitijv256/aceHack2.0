@@ -4,7 +4,7 @@ import PrizeItem from "../components/PrizeItem";
 
 const Prizes = () => {
   return (
-    <div className="py-12 w-full bg-gray-900 relative z-20 text-white">
+    <div className="py-12 w-full bg-gray-900 relative z-20 text-white scroll-smooth">
       <div className="flex flex-col items-center">
         <div className="flex flex-row justify-center mb-6">
           <h1 className="grad-text text-5xl font-bold">Prizes</h1>
