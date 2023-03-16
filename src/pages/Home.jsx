@@ -58,7 +58,7 @@ const Home = () => {
           <ImLocation2 className="w-10 fill-blue-600" />
           <p>
             {" "}
-            &nbsp; April 1<sup>st</sup> and 2<sup>nd</sup> @ Jaipur City
+            &nbsp; April 1<sup>st</sup> and 2<sup>nd</sup> @ University of Engineering and Management Jaipur
           </p>
         </h2>
       </div>
