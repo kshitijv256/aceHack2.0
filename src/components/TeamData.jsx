@@ -13,6 +13,7 @@ import amanImg from "/assets/images/team/aman.jpeg";
 import swarnavaImg from "/assets/images/team/swarnava.jpeg";
 import indiraImg from "/assets/images/team/indira.jpeg";
 import sameerImg from "/assets/images/team/sameer.jpg";
+import adityaImg from "/assets/images/team/aditya.jpeg";
 
 export const sahitya = {
   name: "Sahitya Roy",
@@ -88,6 +89,11 @@ export const sameer = {
   name: "Sameer Singh",
   role: "Operations Manager",
   image: sameerImg,
+};
+export const aditya = {
+  name: "Aditya Pratap",
+  role: "Operations Manager",
+  image: adityaImg,
 };
 export const kshitij = {
   name: "Kshitij Verma",

@@ -17,6 +17,7 @@ const TeamSection = () => {
           <TeamMember member={teamData.priya}/>
           <TeamMember member={teamData.kshitij}/>
           <TeamMember member={teamData.devdeep}/>
+          <TeamMember member={teamData.aditya}/>
           <TeamMember member={teamData.sameer}/>
           <TeamMember member={teamData.swarnava}/>
           <TeamMember member={teamData.dipendu}/>
