@@ -20,15 +20,15 @@ const Prizes = () => {
             prize="₹ 30,000"
             color="text-amber-300"
             space="justify-end"
-            image={<img className="w-32 h-32 top-[-50px] absolute rounded-full border-8 p-1 bg-slate-700 border-cyan-400" src={first} alt="prize" />}
+            image={<img className="w-40 h-40 top-[-80px] absolute rounded-full border-8 p-4 bg-slate-800 border-cyan-400" src={first} alt="prize" />}
           />
           <PrizeItem title="2nd Prize" prize="₹ 20,000" color="text-emerald-300"
             space="justify-end"
-            image={<img className="w-32 h-32 top-[-50px] absolute rounded-full border-8 p-1 bg-slate-700 border-cyan-400" src={second} alt="prize" />}
+            image={<img className="w-40 h-40 top-[-80px] absolute rounded-full border-8 p-4 bg-slate-800 border-cyan-400" src={second} alt="prize" />}
           />
           <PrizeItem title="3rd Prize" prize="₹ 15,000" color="text-blue-300"
             space="justify-end"
-            image={<img className="w-32 h-32 top-[-50px] absolute rounded-full border-8 p-1 bg-slate-700 border-cyan-400" src={third} alt="prize" />}
+            image={<img className="w-40 h-40 top-[-80px] absolute rounded-full border-8 p-4 bg-slate-800 border-cyan-400" src={third} alt="prize" />}
           />
           <PrizeItem
             title="Special prize for top Female participant"
