@@ -15,6 +15,7 @@ import polygon from "/assets/images/sponsors/polygon.png";
 import solana from "/assets/images/sponsors/solana.svg";
 import filecoin from "/assets/images/sponsors/filecoin.png";
 import balsamiq from "/assets/images/sponsors/balsamiq.png";
+import dapps from "/assets/images/sponsors/dapps.png";
 import beeseptor from "/assets/images/sponsors/beeseptor.svg";
 import rpLogo from "/assets/images/sponsors/rpLogo.jpg";
 
@@ -55,6 +56,9 @@ const Sponsor = () => {
           </a>
           <a href="https://nsb.dev/polygon-bounty" target={"_blank"}>
             <Icon icon={polygon} height="h-28 px-4 py-6" />
+          </a>
+          <a href="https://maqtoob-testnet.dapps.co/" target={"_blank"}>
+            <Icon icon={dapps} height="h-28 px-4 py-6 bg-white" />
           </a>
         </div>
         <h1 className="text-5xl font-bold py-10 ">
