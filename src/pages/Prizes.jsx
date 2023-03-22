@@ -1,6 +1,11 @@
 import React from "react";
 import Collapsible from "../components/Collapsible";
 import PrizeItem from "../components/PrizeItem";
+import first from "/assets/images/prizes/first.png";
+import second from "/assets/images/prizes/second.png";
+import third from "/assets/images/prizes/third.png";
+
+
 
 const Prizes = () => {
   return (
@@ -9,14 +14,22 @@ const Prizes = () => {
         <div className="flex flex-row justify-center mb-6">
           <h1 className="grad-text text-5xl font-bold">Prizes</h1>
         </div>
-        <div className="flex flex-row flex-wrap mx-4 md:mx-10 gap-4 justify-center">
+        <div className="flex flex-row flex-wrap mx-4 md:mx-10 gap-4 justify-center mt-10">
           <PrizeItem
             title="1st Prize"
             prize="₹ 30,000"
             color="text-amber-300"
+            space="justify-end"
+            image={<img className="w-32 h-32 top-[-50px] absolute rounded-full border-8 p-1 bg-slate-700 border-cyan-400" src={first} alt="prize" />}
           />
-          <PrizeItem title="2nd Prize" prize="₹ 20,000" color="text-emerald-300" />
-          <PrizeItem title="3rd Prize" prize="₹ 15,000" color="text-blue-300" />
+          <PrizeItem title="2nd Prize" prize="₹ 20,000" color="text-emerald-300"
+            space="justify-end"
+            image={<img className="w-32 h-32 top-[-50px] absolute rounded-full border-8 p-1 bg-slate-700 border-cyan-400" src={second} alt="prize" />}
+          />
+          <PrizeItem title="3rd Prize" prize="₹ 15,000" color="text-blue-300"
+            space="justify-end"
+            image={<img className="w-32 h-32 top-[-50px] absolute rounded-full border-8 p-1 bg-slate-700 border-cyan-400" src={third} alt="prize" />}
+          />
           <PrizeItem
             title="Special prize for top Female participant"
             prize="₹ 10,000"
