@@ -9,14 +9,14 @@ const Prizes = () => {
         <div className="flex flex-row justify-center mb-6">
           <h1 className="grad-text text-5xl font-bold">Prizes</h1>
         </div>
-        <div className="border-double border-x-[16px] border-blue-300 bg-gray-900 w-4/5 text-center pt-8 flex flex-col flex-wrap justify-evenly">
+        <div className="flex flex-row">
           <PrizeItem
             title="1st Prize"
-            prize="₹ 40,000"
+            prize="₹ 30,000"
             color="text-amber-300"
           />
-          <PrizeItem title="2nd Prize" prize="₹ 30,000" color="text-emerald-300" />
-          <PrizeItem title="3rd Prize" prize="₹ 20,000" color="text-blue-300" />
+          <PrizeItem title="2nd Prize" prize="₹ 20,000" color="text-emerald-300" />
+          <PrizeItem title="3rd Prize" prize="₹ 15,000" color="text-blue-300" />
           <PrizeItem
             title="Special prize for top Female participant"
             prize="₹ 10,000"
