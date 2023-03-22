@@ -9,7 +9,7 @@ const Prizes = () => {
         <div className="flex flex-row justify-center mb-6">
           <h1 className="grad-text text-5xl font-bold">Prizes</h1>
         </div>
-        <div className="flex flex-row">
+        <div className="flex flex-row flex-wrap mx-4 md:mx-10 gap-4 justify-center">
           <PrizeItem
             title="1st Prize"
             prize="₹ 30,000"
@@ -32,7 +32,7 @@ const Prizes = () => {
           <h2 className="text-4xl font-bold px-4 py-10 grad-text">
             Sponsor Track
           </h2>
-          <div className="border-double border-x-[16px] border-cyan-300 bg-gray-900 w-4/5 text-center pt-8 flex flex-col flex-wrap justify-evenly">
+          <div className="flex flex-row flex-wrap mx-4 md:mx-10 gap-4 justify-center">
             <PrizeItem
               color="text-cyan-300"
               title="Best hack built on Ethereum + Polygon:"

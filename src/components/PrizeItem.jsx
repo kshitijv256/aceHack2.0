@@ -2,7 +2,7 @@ import React from "react";
 
 const PrizeItem = (props) => {
     return (
-        <div className="flex flex-col bg-blue-900 my-4 border-8 border-white rounded-xl">
+        <div className="flex flex-col bg-slate-700 my-4 border-8 border-cyan-400 rounded-xl w-80 h-80">
               <h2 className="text-3xl font-bold px-4 py-5">
               {props.title}
               </h2>
