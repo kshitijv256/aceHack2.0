@@ -74,6 +74,11 @@ export const swarnava = {
   name: "Swarnava Das",
   role: "Operation and Logistics Coordinator",
   image: swarnavaImg,
+  linkedin: (
+    <a href="https://www.linkedin.com/in/swarnava-das-1b5b361b3" target={"_blank"}>
+      <FaLinkedinIn color="white" />
+    </a>
+  )
 };
 export const dipendu = {
   name: "Dipendu Mukherjee",
@@ -164,6 +169,11 @@ export const preet = {
   name: "Preet Kumar",
   role: "Logistics",
   image: preetImg,
+  linkedin: (
+    <a href="https://www.linkedin.com/in/preet-kumar-979168240" target={"_blank"}>
+      <FaLinkedinIn color="white" />
+    </a>
+  )
 };
 export const prabhat = {
   name: "Prabhat Ranjan",
@@ -189,6 +199,11 @@ export const dev = {
   name: "Dev Sharma",
   role: "Outreach",
   image: devImg,
+  linkedin: (
+    <a href="http://linkedin.com/in/dev-sharma12" target={"_blank"}>
+      <FaLinkedinIn color="white" />
+    </a>
+  )
 };
 export const sacharini = {
   name: "Sancharini Basak",
