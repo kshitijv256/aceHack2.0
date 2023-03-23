@@ -29,6 +29,7 @@ import tannuImg from "/assets/images/team/tannu.jpeg";
 import yashImg from "/assets/images/team/yash.jpeg";
 import sayantinaImg from "/assets/images/team/sayantina.jpeg";
 import sanchariniImg from "/assets/images/team/sancharini.jpeg";
+import shubhamImg from "/assets/images/team/shubham.jpeg";
 
 export const sahitya = {
   name: "Sahitya Roy",
@@ -225,4 +226,15 @@ export const kshitij = {
       <FaGithub color="white" />
     </a>
   ),
+};
+
+export const shubham = {
+  name: "Shubham Sharma",
+  role: "Outreach",
+  image: shubhamImg,
+  linkedin: (
+    <a href="https://www.linkedin.com/in/shubham-sharma-3057621b7" target={"_blank"}>
+      <FaLinkedinIn color="white" />
+    </a>
+  )
 };
