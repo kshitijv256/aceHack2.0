@@ -1,4 +1,4 @@
-import roadmap from '/assets/images/acehack/roadmap.png';
+import roadmap from '/assets/images/roadmap.png';
 
 const Schedule = () => {
     return (

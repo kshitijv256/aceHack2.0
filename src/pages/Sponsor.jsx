@@ -19,6 +19,15 @@ import dapps from "/assets/images/sponsors/dapps.png";
 import beeseptor from "/assets/images/sponsors/beeseptor.svg";
 import rpLogo from "/assets/images/sponsors/rpLogo.jpg";
 
+import codesquad from "/assets/images/community/codesquad.jpg";
+import devStation from "/assets/images/community/dev_station.png";
+import devorld from "/assets/images/community/devorld.png";
+import zetapass from "/assets/images/community/zetapass.png";
+import gfg_rtu from "/assets/images/community/gfg_rtu.png";
+import hussky from "/assets/images/community/hussky.jpg";
+import vmace from "/assets/images/community/vmace.jpg";
+import skit from "/assets/images/community/skit.jpeg";
+
 const Sponsor = () => {
   return (
     <div
@@ -94,6 +103,19 @@ const Sponsor = () => {
           <a href="https://balsamiq.cloud/" target={"_blank"}>
             <Icon icon={balsamiq} height="h-28" />
           </a>
+        </div>
+        <h1 className="text-5xl font-bold py-10 ">
+          <span className="grad-text">Community</span> Partners
+        </h1>
+        <div className="flex flex-row flex-wrap w-4/5 justify-center items-center gap-4">
+            <Icon icon={devStation} height="h-32" />
+            <Icon icon={devorld} height="h-32" />
+            <Icon icon={skit} height="h-32" />
+            <Icon icon={gfg_rtu} height="h-32" />
+            <Icon icon={hussky} height="h-32" />
+            <Icon icon={codesquad} height="h-32" />
+            <Icon icon={vmace} height="h-32" />
+            <Icon icon={zetapass} height="h-32" />
         </div>
         <p className="text-4xl font-extrabold pt-10">
           Become a{" "}
