@@ -19,11 +19,21 @@ export const sahitya = {
   name: "Sahitya Roy",
   role: "Organizer",
   image: sahityaImg,
+  linkedin: (
+    <a href="https://www.linkedin.com/in/sahityaroy/" target={"_blank"}>
+      <FaLinkedinIn color="white" />
+    </a>
+  ),
 };
 export const amar = {
   name: "Amar Sansil",
   role: "Organizer",
   image: amarImg,
+  linkedin: (
+    <a href="https://www.linkedin.com/in/amar-sansil-3371721b7/" target={"_blank"}>
+      <FaLinkedinIn color="white" />
+    </a>
+  ),
 };
 export const priya = {
   name: "Priya Chandak",
