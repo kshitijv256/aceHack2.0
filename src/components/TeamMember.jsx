@@ -12,7 +12,7 @@ const TeamMember = ({member}) => {
             alt="photo"
           />
         </div>
-        <div className="flex flex-col justify-start items-end w-48 flex-wrap">
+        <div className="flex flex-col justify-start items-end text-end w-48 flex-wrap">
           <p className="text-xl text-white font-bold p-2">{member.name}</p>
           <p className="text-base sm:opacity-0 text-gray-400 font-normal md:group-hover:animate-fadeIn opacity-1 text-right mr-2">
             {member.role}

@@ -26,6 +26,19 @@ const TeamSection = () => {
           <TeamMember member={teamData.soumalya}/>
           <TeamMember member={teamData.rohit}/>
           <TeamMember member={teamData.indira}/>
+          <TeamMember member={teamData.yash}/>
+          <TeamMember member={teamData.ishika}/>
+          <TeamMember member={teamData.andrila}/>
+          <TeamMember member={teamData.ayushi}/>
+          <TeamMember member={teamData.priyanshi}/>
+          <TeamMember member={teamData.riya}/>
+          <TeamMember member={teamData.tannu}/>
+          <TeamMember member={teamData.sayantina}/>
+          <TeamMember member={teamData.preet}/>
+          <TeamMember member={teamData.prabhat}/>
+          <TeamMember member={teamData.adarsh}/>
+          <TeamMember member={teamData.nadim}/>
+          <TeamMember member={teamData.dev}/>
         </div>
       </section>
     </div>

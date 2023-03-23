@@ -14,6 +14,19 @@ import swarnavaImg from "/assets/images/team/swarnava.jpeg";
 import indiraImg from "/assets/images/team/indira.jpeg";
 import sameerImg from "/assets/images/team/sameer.jpg";
 import adityaImg from "/assets/images/team/aditya.jpeg";
+import adarshImg from "/assets/images/team/adarsh.jpeg";
+import andrilaImg from "/assets/images/team/andrila.jpeg";
+import ayushiImg from "/assets/images/team/ayushi.jpeg";
+import devImg from "/assets/images/team/dev.jpeg";
+import ishikaImg from "/assets/images/team/ishika.jpeg";
+import nadimImg from "/assets/images/team/nadim.jpeg";
+import prabhatImg from "/assets/images/team/prabhat.jpeg";
+import preetImg from "/assets/images/team/preet.jpeg";
+import priyanshiImg from "/assets/images/team/priyanshi.jpeg";
+import riyaImg from "/assets/images/team/riya.jpeg";
+import tannuImg from "/assets/images/team/tannu.jpeg";
+import yashImg from "/assets/images/team/yash.jpeg";
+import sayantinaImg from "/assets/images/team/sayantina.jpeg";
 
 export const sahitya = {
   name: "Sahitya Roy",
@@ -57,11 +70,11 @@ export const devdeep = {
 };
 export const swarnava = {
   name: "Swarnava Das",
-  role: "Operations",
+  role: "Operation and Logistics Coordinator",
   image: swarnavaImg,
 };
 export const dipendu = {
-  name: "Dipendu",
+  name: "Dipendu Mukherjee",
   role: "Graphics Designer & Photographer",
   image: dipenduImg,
 };
@@ -76,22 +89,22 @@ export const snehasis = {
   image: snehasisImg,
 };
 export const shanu = {
-  name: "Shanu",
+  name: "Shanu Aaryan",
   role: "Operations",
   image: shanuImg,
 };
 export const soumalya = {
-  name: "Soumalya",
+  name: "Soumalya Hajra",
   role: "Operations",
   image: soumalyaImg,
 };
 export const rohit = {
-  name: "Rohit",
+  name: "Rohit Chakraborty",
   role: "Operations",
   image: rohitImg,
 };
 export const indira = {
-  name: "Indira",
+  name: "Indira Ghosh",
   role: "Operations",
   image: indiraImg,
 };
@@ -105,6 +118,72 @@ export const aditya = {
   role: "Operations Manager",
   image: adityaImg,
 };
+export const yash = {
+  name: "Yash Yadav",
+  role: "Graphics",
+  image: yashImg,
+};
+export const andrila = {
+  name: "Andrila Sarkar",
+  role: "Content writer",
+  image: andrilaImg,
+};
+export const ishika = {
+  name: "Ishika Saraf",
+  role: "Content writer",
+  image: ishikaImg,
+};
+export const priyanshi = {
+  name: "Priyanshi Soni",
+  role: "Content writer",
+  image: priyanshiImg,
+};
+export const ayushi = {
+  name: "Ayushi George",
+  role: "Operations",
+  image: ayushiImg,
+};
+export const riya = {
+  name: "Riya Mondal",
+  role: "Hackathon Evangelist",
+  image: riyaImg,
+};
+export const tannu = {
+  name: "Tannu Prasad",
+  role: "Content writer",
+  image: tannuImg,
+};
+export const sayantina = {
+  name: "Sayantina Kundu",
+  role: "UI Designer",
+  image: sayantinaImg,
+};
+export const preet = {
+  name: "Preet Kumar",
+  role: "Logistics",
+  image: preetImg,
+};
+export const prabhat = {
+  name: "Prabhat Ranjan",
+  role: "Logistics",
+  image: prabhatImg,
+};
+export const adarsh = {
+  name: "Adarsh Singh",
+  role: "Logistics",
+  image: adarshImg,
+};
+export const nadim = {
+  name: "Nadim Raza",
+  role: "Logistics",
+  image: nadimImg,
+};
+export const dev = {
+  name: "Dev Sharma",
+  role: "Outreach",
+  image: devImg,
+};
+
 export const kshitij = {
   name: "Kshitij Verma",
   role: "Web Developer",
