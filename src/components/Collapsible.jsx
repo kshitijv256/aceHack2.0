@@ -9,7 +9,7 @@ const Collapsible = (props) => {
   const contentRef = useRef();
   return (
     <div className={`${props.style}`}>
-      <button onClick={toggle} className="text-xl px-2 py-1">
+      <button onClick={toggle} className="text-xl px-6 py-2 font-semibold text-gray-300">
         {props.label}
       </button>
       <div
@@ -21,7 +21,7 @@ const Collapsible = (props) => {
             : { height: "0px" }
         }
       >
-        <h4 className="text-lg bg-[#212a39] px-4 py-2 rounded-b-lg">
+        <h4 className="text-lg bg-[#2a3153] px-4 py-2 rounded-b-lg">
           {props.children}
         </h4>
       </div>

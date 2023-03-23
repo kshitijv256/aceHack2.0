@@ -24,12 +24,12 @@ const App = () => {
       <Why/>
       <Prizes />
       <Referal/>
+      <Faq />
       <Sponsor />
       <Past />
       <Speakers />
       <TeamSection />
       <Faculty />
-      <Faq />
       <Footer />
     </>
   )
