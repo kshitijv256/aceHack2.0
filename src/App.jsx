@@ -13,6 +13,7 @@ import Faculty from "./pages/Faculty";
 import Prizes from "./pages/Prizes";
 import Why from "./pages/why";
 import Referal from "./pages/referal";
+import Schedule from "./components/schedule";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Home />
       <Navbar/>
       <About />
+      <Schedule/>
       <Themes />
       <Why/>
       <Prizes />
