@@ -17,7 +17,8 @@ import adityaImg from "/assets/images/team/aditya.jpeg";
 import adarshImg from "/assets/images/team/adarsh.jpeg";
 import andrilaImg from "/assets/images/team/andrila.jpeg";
 import ayushiImg from "/assets/images/team/ayushi.jpeg";
-import devImg from "/assets/images/team/dev.jpeg";
+import purveshImg from "/assets/images/team/purvesh.jpeg";
+import devImg from "/assets/images/team/dev.jpg";
 import ishikaImg from "/assets/images/team/ishika.jpeg";
 import nadimImg from "/assets/images/team/nadim.jpeg";
 import prabhatImg from "/assets/images/team/prabhat.jpeg";
@@ -27,6 +28,7 @@ import riyaImg from "/assets/images/team/riya.jpeg";
 import tannuImg from "/assets/images/team/tannu.jpeg";
 import yashImg from "/assets/images/team/yash.jpeg";
 import sayantinaImg from "/assets/images/team/sayantina.jpeg";
+import sanchariniImg from "/assets/images/team/sancharini.jpeg";
 
 export const sahitya = {
   name: "Sahitya Roy",
@@ -145,7 +147,7 @@ export const ayushi = {
 };
 export const riya = {
   name: "Riya Mondal",
-  role: "Hackathon Evangelist",
+  role: "Community Manager",
   image: riyaImg,
 };
 export const tannu = {
@@ -178,10 +180,20 @@ export const nadim = {
   role: "Logistics",
   image: nadimImg,
 };
+export const purvesh = {
+  name: "Purvesh Gupta",
+  role: "Outreach",
+  image: purveshImg,
+};
 export const dev = {
-  name: "Dev Sharma",
+  name: "Purvesh Gupta",
   role: "Outreach",
   image: devImg,
+};
+export const sacharini = {
+  name: "Sancharini Basak",
+  role: "Logistics",
+  image: sanchariniImg,
 };
 
 export const kshitij = {
