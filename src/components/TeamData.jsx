@@ -186,7 +186,7 @@ export const purvesh = {
   image: purveshImg,
 };
 export const dev = {
-  name: "Purvesh Gupta",
+  name: "Dev Sharma",
   role: "Outreach",
   image: devImg,
 };
