@@ -14,6 +14,8 @@ import samarth from "/assets/images/speakers/samarth.jpeg";
 import sheetal from "/assets/images/speakers/sheetal.jpeg";
 import shyaamal from "/assets/images/speakers/shyaamal.jpeg";
 import vishek from "/assets/images/speakers/vishek.jpeg";
+import khushi from "/assets/images/speakers/khushi.jpeg";
+import nishant from "/assets/images/speakers/nishant.jpeg";
 import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Speakers = () => {
@@ -91,7 +93,7 @@ const Speakers = () => {
           />
           <Member
             image={shyaamal}
-            name="Shyaamal Tripath"
+            name="Shyaamal Tripathi"
             social={
               <a
                 href="https://www.linkedin.com/in/shyaamal-tripathi-a389051b3/"
@@ -186,6 +188,32 @@ const Speakers = () => {
             social={
               <a
                 href="https://www.linkedin.com/in/kanishak-chaurasia-1101/"
+                className="text-2xl text-gray-400"
+                target={"_blank"}
+              >
+                <FaLinkedin />
+              </a>
+            }
+          />
+          <Member
+            image={nishant}
+            name="Nishant Mishra"
+            social={
+              <a
+                href="https://www.linkedin.com/in/curlyparadox/"
+                className="text-2xl text-gray-400"
+                target={"_blank"}
+              >
+                <FaLinkedin />
+              </a>
+            }
+          />
+          <Member
+            image={khushi}
+            name="Khushi Naudiyal"
+            social={
+              <a
+                href="https://www.linkedin.com/in/khushi-naudiyal-a0647718a/"
                 className="text-2xl text-gray-400"
                 target={"_blank"}
               >
