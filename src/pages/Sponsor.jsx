@@ -45,26 +45,32 @@ const Sponsor = () => {
           <Icon icon={iic} height="h-28" />
         </div>
         <h1 className="text-5xl font-bold py-10 ">
-          <span className="grad-text">Title</span> Sponsors
-        </h1>
-        <p>...Coming Soon</p>
-        <h1 className="text-5xl font-bold py-10 ">
           <span className="grad-text">Platinum</span> Sponsors
         </h1>
         <p>...Coming Soon</p>
         <h1 className="text-5xl font-bold py-10 ">
           <span className="grad-text">Gold</span> Sponsors
         </h1>
-        <p>...Coming Soon</p>
-        <h1 className="text-5xl font-bold py-10 ">
-          <span className="grad-text">Silver</span> Sponsors
-        </h1>
         <div className="flex flex-row flex-wrap w-4/5 justify-center items-center">
-          <a href="https://devfolio.co/">
+        <a href="https://devfolio.co/">
           <Icon icon={devfolio} height="h-28 px-4 py-6" />
           </a>
           <a href="https://nsb.dev/polygon-bounty" target={"_blank"}>
             <Icon icon={polygon} height="h-28 px-4 py-6" />
+          </a>
+        </div>
+        <h1 className="text-5xl font-bold py-10 ">
+          <span className="grad-text">Silver</span> Sponsors
+        </h1>
+        <div className="flex flex-row flex-wrap w-4/5 justify-center items-center">
+        <a href="https://nsb.dev/solana-bounty" target={"_blank"}>
+            <Icon icon={solana} height="h-24 px-4 py-6" />
+          </a>
+          <a href="https://nsb.dev/replit-bounty" target={"_blank"}>
+            <Icon icon={replit} height="h-28 px-4 py-6" />
+          </a>
+          <a href="https://nsb.dev/filecoin-bounty" target={"_blank"}>
+            <Icon icon={filecoin} height="h-28 px-4 py-6" />
           </a>
           <a href="https://maqtoob-testnet.dapps.co/" target={"_blank"}>
             <Icon icon={dapps} height="h-28 px-4 py-6 bg-white" />
@@ -74,15 +80,7 @@ const Sponsor = () => {
           <span className="grad-text">Bronze</span> Sponsors
         </h1>
         <div className="flex flex-row flex-wrap w-4/5 justify-center items-center">
-          <a href="https://nsb.dev/solana-bounty" target={"_blank"}>
-            <Icon icon={solana} height="h-24 px-4 py-6" />
-          </a>
-          <a href="https://nsb.dev/replit-bounty" target={"_blank"}>
-            <Icon icon={replit} height="h-28 px-4 py-6" />
-          </a>
-          <a href="https://nsb.dev/filecoin-bounty" target={"_blank"}>
-            <Icon icon={filecoin} height="h-28 px-4 py-6" />
-          </a>
+          
           <a href="https://beeceptor.com/" target={"_blank"}>
             <Icon icon={beeseptor} height="h-28 px-4 py-6" />
           </a>
