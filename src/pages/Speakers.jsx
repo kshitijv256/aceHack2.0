@@ -119,7 +119,7 @@ const Speakers = () => {
           />
           <Member
             image={ayushman}
-            name="Ayushman Pandit"
+            name="Ayushman Pandita"
             social={
               <a
                 href="https://www.instagram.com/xyushmxn/"
