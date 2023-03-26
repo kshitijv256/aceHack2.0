@@ -16,6 +16,10 @@ import shyaamal from "/assets/images/speakers/shyaamal.jpeg";
 import vishek from "/assets/images/speakers/vishek.jpeg";
 import khushi from "/assets/images/speakers/khushi.jpeg";
 import nishant from "/assets/images/speakers/nishant.jpeg";
+import gantavya from "/assets/images/speakers/gantavya.jpeg";
+import shatakshi from "/assets/images/speakers/shatakshi.jpeg";
+import aryan from "/assets/images/speakers/aryan.jpeg";
+import khushi_t from "/assets/images/speakers/khushi_t.jpeg";
 import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Speakers = () => {
@@ -52,19 +56,7 @@ const Speakers = () => {
               </a>
             }
           />
-          <Member
-            image={samarth}
-            name="Samarth Saxena"
-            social={
-              <a
-                href="https://www.linkedin.com/in/samarth-saxena-169430178/"
-                className="text-2xl text-gray-400"
-                target={"_blank"}
-              >
-                <FaLinkedin />
-              </a>
-            }
-          />
+          
           <Member
             image={prajakta}
             name="Prajakta kadam"
@@ -183,19 +175,6 @@ const Speakers = () => {
             }
           />
           <Member
-            image={kanishak}
-            name="Kanishak chaurasia"
-            social={
-              <a
-                href="https://www.linkedin.com/in/kanishak-chaurasia-1101/"
-                className="text-2xl text-gray-400"
-                target={"_blank"}
-              >
-                <FaLinkedin />
-              </a>
-            }
-          />
-          <Member
             image={nishant}
             name="Nishant Mishra"
             social={
@@ -214,6 +193,58 @@ const Speakers = () => {
             social={
               <a
                 href="https://www.linkedin.com/in/khushi-naudiyal-a0647718a/"
+                className="text-2xl text-gray-400"
+                target={"_blank"}
+              >
+                <FaLinkedin />
+              </a>
+            }
+          />
+          <Member
+            image={gantavya}
+            name="Gantavya Malviya"
+            social={
+              <a
+                href="https://www.linkedin.com/in/gantavyamalviya/"
+                className="text-2xl text-gray-400"
+                target={"_blank"}
+              >
+                <FaLinkedin />
+              </a>
+            }
+          />
+          <Member
+            image={shatakshi}
+            name="Shatakshi Verma"
+            social={
+              <a
+                href="https://www.linkedin.com/in/shatakshi-verma-708426200/"
+                className="text-2xl text-gray-400"
+                target={"_blank"}
+              >
+                <FaLinkedin />
+              </a>
+            }
+          />
+          <Member
+            image={aryan}
+            name="Aryan Kaushik"
+            social={
+              <a
+                href="https://www.linkedin.com/in/aryank21/"
+                className="text-2xl text-gray-400"
+                target={"_blank"}
+              >
+                <FaLinkedin />
+              </a>
+            }
+          />
+          <Member
+            image={khushi_t}
+            name="Khushi Trivedi"
+            social={
+              <a
+                href="https://www.linkedin.com/in/the-khushi-trivedi/"
                 className="text-2xl text-gray-400"
                 target={"_blank"}
               >
