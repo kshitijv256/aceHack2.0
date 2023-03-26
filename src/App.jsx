@@ -14,6 +14,7 @@ import Prizes from "./pages/Prizes";
 import Why from "./pages/why";
 import Referal from "./pages/referal";
 import Schedule from "./components/schedule";
+import AddressMap from "./pages/map";
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
       <Speakers />
       <TeamSection />
       <Faculty />
+      <AddressMap/>
       <Faq />
       <Footer />
     </>

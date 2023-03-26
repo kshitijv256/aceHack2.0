@@ -8,6 +8,8 @@ import uem from "/assets/images/uem.png";
 import acm from "/assets/images/acm.jpeg";
 import rpLogo from "/assets/images/sponsors/rpLogo.jpg";
 
+
+
 const Home = () => {
   React.useEffect(() => {
     const script = document.createElement("script");
@@ -22,7 +24,7 @@ const Home = () => {
   return (
     <div
       id="home"
-      className="sticky top-0 z-0 pb-20 text-white scroll-smooth"
+      className="sticky top-[-50vh] z-0 pb-20 text-white scroll-smooth"
     >
       <div className="overlay"></div>
       <img
@@ -37,7 +39,7 @@ const Home = () => {
             <Icon icon={acm} height={'h-16'}/>
         </div>
         <img alt="AceHack Logo" className="min-w-[30%] w-[40%] max-w-[80%] mb-6 md:mb-0" src={AceHackLogo} />
-        <CountdownTimer targetDate={new Date("2023-04-01T00:00:00")} />
+        <CountdownTimer targetDate={new Date("2023-04-01T00:10:00")} />
         <div className="flex flex-row flex-wrap w-full justify-center gap-4 mb-6 md:mb-0">
         <div
           className="apply-button"

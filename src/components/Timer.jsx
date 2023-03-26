@@ -42,9 +42,8 @@ const DateTimeDisplay = ({ value, type }) => {
 
 const ExpiredNotice = () => {
   return (
-    <div className="hidden">
-      <span>Expired!!!</span>
-      <p>Hackathon has Ended</p>
+    <div className="font-extrabold text-red-400 text-5xl py-6">
+      <p>Registrations are closed!</p>
     </div>
   );
 };
