@@ -27,6 +27,8 @@ import gfg_rtu from "/assets/images/community/gfg_rtu.png";
 import hussky from "/assets/images/community/hussky.jpg";
 import vmace from "/assets/images/community/vmace.jpg";
 import skit from "/assets/images/community/skit.jpeg";
+import cbs from "/assets/images/community/cbs.jpeg";
+import poornima from "/assets/images/community/poornima.jpeg";
 
 const Sponsor = () => {
   return (
@@ -114,6 +116,8 @@ const Sponsor = () => {
             <Icon icon={codesquad} height="h-32" />
             <Icon icon={vmace} height="h-32" />
             <Icon icon={zetapass} height="h-32" />
+            <Icon icon={cbs} height="h-32" />
+            <Icon icon={poornima} height="h-32" />
         </div>
         <p className="text-4xl font-extrabold pt-10">
           Become a{" "}
