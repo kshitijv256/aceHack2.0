@@ -32,6 +32,43 @@ const Speakers = () => {
           <h1 className="grad-text font-bold text-5xl mb-10">Mentors</h1>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <Member
+            image={aanchal}
+            name="Aanchal Mishra"
+            role="Developer Advocate, Student Program, Postman."
+          />
+          <Member
+            image={ali}
+            name="Ali Mustufa Shaikh"
+            role="Senior Developer Advocate, Postman."
+          />
+        <Member
+            image={ayushman}
+            name="Ayushman Pandita"
+            social={
+              <a
+                href="https://www.instagram.com/xyushmxn/"
+                className="text-2xl text-gray-400"
+                target={"_blank"}
+              >
+                <FaInstagram />
+              </a>
+            }
+          />
+          <Member
+            image={aryan}
+            name="Aryan Kaushik"
+            social={
+              <a
+                href="https://www.linkedin.com/in/aryank21/"
+                className="text-2xl text-gray-400 pb-1"
+                target={"_blank"}
+              >
+                <FaLinkedin />
+              </a>
+            }
+            role="Mentor, Judge"
+          />
           <Member
             image={sheetal}
             name="Sheetal Jain"
@@ -108,19 +145,6 @@ const Speakers = () => {
                 target={"_blank"}
               >
                 <FaLinkedin />
-              </a>
-            }
-          />
-          <Member
-            image={ayushman}
-            name="Ayushman Pandita"
-            social={
-              <a
-                href="https://www.instagram.com/xyushmxn/"
-                className="text-2xl text-gray-400"
-                target={"_blank"}
-              >
-                <FaInstagram />
               </a>
             }
           />
@@ -228,19 +252,7 @@ const Speakers = () => {
               </a>
             }
           />
-          <Member
-            image={aryan}
-            name="Aryan Kaushik"
-            social={
-              <a
-                href="https://www.linkedin.com/in/aryank21/"
-                className="text-2xl text-gray-400"
-                target={"_blank"}
-              >
-                <FaLinkedin />
-              </a>
-            }
-          />
+          
           <Member
             image={khushi_t}
             name="Khushi Trivedi"
@@ -253,16 +265,6 @@ const Speakers = () => {
                 <FaLinkedin />
               </a>
             }
-          />
-          <Member
-            image={aanchal}
-            name="Aanchal Mishra"
-            role="Developer Advocate, Student Program, Postman."
-          />
-          <Member
-            image={ali}
-            name="Ali Mustufa Shaikh"
-            role="Senior Developer Advocate, Postman."
           />
         </div>
       </section>
