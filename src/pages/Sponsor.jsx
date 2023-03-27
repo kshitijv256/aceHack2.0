@@ -15,7 +15,7 @@ import polygon from "/assets/images/sponsors/polygon.png";
 import solana from "/assets/images/sponsors/solana.svg";
 import filecoin from "/assets/images/sponsors/filecoin.png";
 import balsamiq from "/assets/images/sponsors/balsamiq.png";
-import dapps from "/assets/images/sponsors/dapps.png";
+import dapps from "/assets/images/sponsors/dapps.jpeg";
 import beeseptor from "/assets/images/sponsors/beeseptor.svg";
 import postman from "/assets/images/sponsors/postman.svg";
 import rpLogo from "/assets/images/sponsors/rpLogo.jpg";
