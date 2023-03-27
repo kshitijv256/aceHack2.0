@@ -4,6 +4,7 @@ import AceHackSm from "/assets/images/AceHack-sm-logo.png";
 import { IconContext } from "react-icons";
 import { FaBars } from "react-icons/fa";
 import { MdOutlineClose } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   const [disp, set] = useState("hidden");
@@ -38,19 +39,31 @@ export const Navbar = () => {
         </div>
         <div>
           <div className="flex justify-between items-center">
+            <a href="/">
             <img
               src={AceHackSm}
               alt="AceHack2.0"
               className="hidden lg:block object-contain"
             />
+            </a>
             <div className="hidden space-x-6 md:flex flex-row items-center justify-center lg:justify-end w-full px-6 py-4">
               <FancyButton data="Register" id="register" />
               <FancyButton id={"about"} data={"About"} />
-              <a href="https://lu.ma/acehack-he" target={"_blank"}>
-                <FancyButton id={"partner"} data={"Join Us"} />
-              </a>
-              <FancyButton id={"themes"} data={"Themes"} />
-              <FancyButton id={"team"} data={"Team"} />
+              <FancyButton
+                id={"live"}
+                data={
+                  <a href="/live">
+                    Live
+                  </a>
+                }
+              />
+              <FancyButton id={"themes"} data={"Tracks"} />
+              <FancyButton id={"team"}
+                data={
+                  <a href="/team">
+                    Team
+                  </a>
+                } />
               <FancyButton id={"faq"} data={"FAQ"} />
             </div>
             <div
@@ -59,15 +72,20 @@ export const Navbar = () => {
               <FancyButton data="Register" id="register" />
               <FancyButton id={"about"} data={"About"} />
               <FancyButton
-                id={"partner"}
+                id={"live"}
                 data={
-                  <a href="https://lu.ma/acehack-he" target={"_blank"}>
-                    Join Us
+                  <a href="/live">
+                    Live
                   </a>
                 }
               />
-              <FancyButton id={"themes"} data={"Themes"} />
-              <FancyButton id={"team"} data={"Team"} />
+              <FancyButton id={"themes"} data={"Tracks"} />
+              <FancyButton id={"team"}
+                data={
+                  <a href="/team">
+                    Team
+                  </a>
+                } />
               <FancyButton id={"faq"} data={"FAQ"} />
             </div>
           </div>

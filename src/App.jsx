@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import About from "./pages/About";
@@ -20,25 +21,39 @@ import Tweets from "./pages/Tweets";
 const App = () => {
   return (
     <>
-      <Home />
-      <Navbar/>
-      {/* <Tweets /> */}
-      <About />
-      <Schedule/>
-      <Themes />
-      <Why/>
-      <Prizes />
-      <Referal/>
-      <Sponsor />
-      <Past />
-      <Speakers />
-      <TeamSection />
-      <Faculty />
-      <AddressMap/>
-      <Faq />
-      <Footer />
+      <div className="wrapper bg-gray-900">
+      <Navbar />
+        <BrowserRouter>
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <div>
+                  <Home />
+                  <About />
+                  <Schedule />
+                  <Themes />
+                  <Why />
+                  <Prizes />
+                  <Referal />
+                  <Sponsor />
+                  <Past />
+                  <Speakers />
+                  <Faculty />
+                  <AddressMap />
+                  <Faq />
+                </div>
+              }
+            />
+            <Route path="/team" element={<TeamSection />} />
+            <Route path="/map" element={<AddressMap/>} />
+            <Route path="/live" element={<Tweets/>} />
+          </Routes>
+        </BrowserRouter>
+        <Footer />
+      </div>
     </>
-  )
-}
+  );
+};
 
 export default App;
