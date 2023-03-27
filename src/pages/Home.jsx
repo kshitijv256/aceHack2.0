@@ -21,6 +21,10 @@ const Home = () => {
       document.body.removeChild(script);
     };
   }, []);
+  const handleClick = () => {
+    const element = document.getElementById('map');
+    element.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <div
       id="home"
@@ -56,13 +60,17 @@ const Home = () => {
           </a>
         </div>
         </div>
-        <h2 className="break-words text-center mt-8 mb-10 text-2xl flex items-center font-bold">
-          <ImLocation2 className="w-10 fill-blue-600" />
+        <h2 className="break-words text-center mt-10 mb-4 text-2xl flex items-center font-bold">
+          
           <p>
             {" "}
             &nbsp; April 1<sup>st</sup> and 2<sup>nd</sup> @ University of Engineering and Management Jaipur
           </p>
         </h2>
+          <div className="text-gray-300 text-lg flex flex-row items-center">
+          <ImLocation2 className="w-10 fill-blue-600" />
+            <button onClick={handleClick}>How to reach ?</button>
+          </div>
       </div>
     </div>
   );

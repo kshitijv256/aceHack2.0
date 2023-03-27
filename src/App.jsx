@@ -46,7 +46,6 @@ const App = () => {
               }
             />
             <Route path="/team" element={<TeamSection />} />
-            <Route path="/map" element={<AddressMap/>} />
             <Route path="/live" element={<Tweets/>} />
           </Routes>
         </BrowserRouter>

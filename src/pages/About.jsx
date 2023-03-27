@@ -15,7 +15,7 @@ const About = () => {
             AceHack is a 24 hour hackathon, an initiative of{" "}
             <span className="underline-offset-8 underline decoration-cyan-300">
               UEM Jaipur ACM Student Chapter
-            </span>{" "} in asssosiation with{" "}<span className="underline-offset-8 underline decoration-cyan-300">Rajasthan Police.</span>  
+            </span>{" "} in assosiation with{" "}<span className="underline-offset-8 underline decoration-cyan-300">Rajasthan Police.</span>  
             &nbsp; Which is being held in Jaipur, India. It is a 24 Hour Hackathon
             where participants will build projects to solve problems and compete with
             other participants and innovate for society.
