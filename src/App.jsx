@@ -22,7 +22,7 @@ const App = () => {
     <>
       <Home />
       <Navbar/>
-      <Tweets />
+      {/* <Tweets /> */}
       <About />
       <Schedule/>
       <Themes />
