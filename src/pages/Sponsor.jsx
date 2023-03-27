@@ -78,7 +78,7 @@ const Sponsor = () => {
           <a href="https://maqtoob-testnet.dapps.co/" target={"_blank"}>
             <Icon icon={dapps} height="h-28 px-4 py-6 bg-white" />
           </a>
-          <a href="https://nsb.dev/solana-bounty" target={"_blank"}>
+          <a href="https://www.postman.com/" target={"_blank"}>
             <Icon icon={postman} height="h-28 px-4 py-6" />
           </a>
         </div>
