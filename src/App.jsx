@@ -17,18 +17,40 @@ import Referal from "./pages/referal";
 import Schedule from "./components/schedule";
 import AddressMap from "./pages/map";
 import Tweets from "./pages/Tweets";
+import AceHackSm from "/assets/images/AceHack-sm-logo.png";
+
+const AceLogo = (prop) => {
+  return (
+    <div>
+      <div
+        className={`bg-gray-900/30 w-full sticky top-0 z-30 backdrop-blur-md md:h-auto h-32`}
+      >
+        <div className="flex justify-between items-center">
+          <a href="/">
+            <img
+              src={AceHackSm}
+              alt="AceHack2.0"
+              className="hidden lg:block object-contain"
+            />
+          </a>
+        </div>
+      </div>
+      {prop.children}
+    </div>
+  );
+};
 
 const App = () => {
   return (
     <>
       <div className="wrapper bg-gray-900">
-      <Navbar />
         <BrowserRouter>
           <Routes>
             <Route
               path="/"
               element={
                 <div>
+                  <Navbar />
                   <Home />
                   <About />
                   <Schedule />
@@ -45,8 +67,22 @@ const App = () => {
                 </div>
               }
             />
-            <Route path="/team" element={<TeamSection />} />
-            <Route path="/live" element={<Tweets/>} />
+            <Route
+              path="/team"
+              element={
+                <AceLogo>
+                  <TeamSection />
+                </AceLogo>
+              }
+            />
+            <Route
+              path="/live"
+              element={
+                <AceLogo>
+                  <Tweets />
+                </AceLogo>
+              }
+            />
           </Routes>
         </BrowserRouter>
         <Footer />

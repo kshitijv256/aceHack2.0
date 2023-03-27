@@ -4,7 +4,6 @@ import AceHackSm from "/assets/images/AceHack-sm-logo.png";
 import { IconContext } from "react-icons";
 import { FaBars } from "react-icons/fa";
 import { MdOutlineClose } from "react-icons/md";
-import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   const [disp, set] = useState("hidden");
