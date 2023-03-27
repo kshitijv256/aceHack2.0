@@ -15,12 +15,14 @@ import Why from "./pages/why";
 import Referal from "./pages/referal";
 import Schedule from "./components/schedule";
 import AddressMap from "./pages/map";
+import Tweets from "./pages/Tweets";
 
 const App = () => {
   return (
     <>
       <Home />
       <Navbar/>
+      <Tweets />
       <About />
       <Schedule/>
       <Themes />
