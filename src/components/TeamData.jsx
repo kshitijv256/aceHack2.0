@@ -14,16 +14,42 @@ import swarnavaImg from "/assets/images/team/swarnava.jpeg";
 import indiraImg from "/assets/images/team/indira.jpeg";
 import sameerImg from "/assets/images/team/sameer.jpg";
 import adityaImg from "/assets/images/team/aditya.jpeg";
+import adarshImg from "/assets/images/team/adarsh.jpeg";
+import andrilaImg from "/assets/images/team/andrila.jpeg";
+import ayushiImg from "/assets/images/team/ayushi.jpeg";
+import purveshImg from "/assets/images/team/purvesh.jpeg";
+import devImg from "/assets/images/team/dev.jpg";
+import ishikaImg from "/assets/images/team/ishika.jpeg";
+import nadimImg from "/assets/images/team/nadim.jpeg";
+import prabhatImg from "/assets/images/team/prabhat.jpeg";
+import preetImg from "/assets/images/team/preet.jpeg";
+import priyanshiImg from "/assets/images/team/priyanshi.jpeg";
+import riyaImg from "/assets/images/team/riya.jpeg";
+import tannuImg from "/assets/images/team/tannu.jpeg";
+import yashImg from "/assets/images/team/yash.jpeg";
+import sayantinaImg from "/assets/images/team/sayantina.jpeg";
+import sanchariniImg from "/assets/images/team/sancharini.jpeg";
+import shubhamImg from "/assets/images/team/shubham.jpeg";
 
 export const sahitya = {
   name: "Sahitya Roy",
   role: "Organizer",
   image: sahityaImg,
+  linkedin: (
+    <a href="https://www.linkedin.com/in/sahityaroy/" target={"_blank"}>
+      <FaLinkedinIn color="white" />
+    </a>
+  ),
 };
 export const amar = {
   name: "Amar Sansil",
   role: "Organizer",
   image: amarImg,
+  linkedin: (
+    <a href="https://www.linkedin.com/in/amar-sansil-3371721b7/" target={"_blank"}>
+      <FaLinkedinIn color="white" />
+    </a>
+  ),
 };
 export const priya = {
   name: "Priya Chandak",
@@ -47,11 +73,16 @@ export const devdeep = {
 };
 export const swarnava = {
   name: "Swarnava Das",
-  role: "Operations",
+  role: "Operation and Logistics Coordinator",
   image: swarnavaImg,
+  linkedin: (
+    <a href="https://www.linkedin.com/in/swarnava-das-1b5b361b3" target={"_blank"}>
+      <FaLinkedinIn color="white" />
+    </a>
+  )
 };
 export const dipendu = {
-  name: "Dipendu",
+  name: "Dipendu Mukherjee",
   role: "Graphics Designer & Photographer",
   image: dipenduImg,
 };
@@ -66,22 +97,22 @@ export const snehasis = {
   image: snehasisImg,
 };
 export const shanu = {
-  name: "Shanu",
+  name: "Shanu Aaryan",
   role: "Operations",
   image: shanuImg,
 };
 export const soumalya = {
-  name: "Soumalya",
+  name: "Soumalya Hajra",
   role: "Operations",
   image: soumalyaImg,
 };
 export const rohit = {
-  name: "Rohit",
+  name: "Rohit Chakraborty",
   role: "Operations",
   image: rohitImg,
 };
 export const indira = {
-  name: "Indira",
+  name: "Indira Ghosh",
   role: "Operations",
   image: indiraImg,
 };
@@ -95,6 +126,92 @@ export const aditya = {
   role: "Operations Manager",
   image: adityaImg,
 };
+export const yash = {
+  name: "Yash Yadav",
+  role: "Graphics",
+  image: yashImg,
+};
+export const andrila = {
+  name: "Andrila Sarkar",
+  role: "Content writer",
+  image: andrilaImg,
+};
+export const ishika = {
+  name: "Ishika Saraf",
+  role: "Content writer",
+  image: ishikaImg,
+};
+export const priyanshi = {
+  name: "Priyanshi Soni",
+  role: "Content writer",
+  image: priyanshiImg,
+};
+export const ayushi = {
+  name: "Ayushi George",
+  role: "Operations",
+  image: ayushiImg,
+};
+export const riya = {
+  name: "Riya Mondal",
+  role: "Community Manager",
+  image: riyaImg,
+};
+export const tannu = {
+  name: "Tannu Prasad",
+  role: "Content writer",
+  image: tannuImg,
+};
+export const sayantina = {
+  name: "Sayantina Kundu",
+  role: "UI Designer",
+  image: sayantinaImg,
+};
+export const preet = {
+  name: "Preet Kumar",
+  role: "Logistics",
+  image: preetImg,
+  linkedin: (
+    <a href="https://www.linkedin.com/in/preet-kumar-979168240" target={"_blank"}>
+      <FaLinkedinIn color="white" />
+    </a>
+  )
+};
+export const prabhat = {
+  name: "Prabhat Ranjan",
+  role: "Logistics",
+  image: prabhatImg,
+};
+export const adarsh = {
+  name: "Adarsh Singh",
+  role: "Logistics",
+  image: adarshImg,
+};
+export const nadim = {
+  name: "Nadim Raza",
+  role: "Logistics",
+  image: nadimImg,
+};
+export const purvesh = {
+  name: "Purvesh Gupta",
+  role: "Outreach",
+  image: purveshImg,
+};
+export const dev = {
+  name: "Dev Sharma",
+  role: "Outreach",
+  image: devImg,
+  linkedin: (
+    <a href="http://linkedin.com/in/dev-sharma12" target={"_blank"}>
+      <FaLinkedinIn color="white" />
+    </a>
+  )
+};
+export const sacharini = {
+  name: "Sancharini Basak",
+  role: "Logistics",
+  image: sanchariniImg,
+};
+
 export const kshitij = {
   name: "Kshitij Verma",
   role: "Web Developer",
@@ -109,4 +226,15 @@ export const kshitij = {
       <FaGithub color="white" />
     </a>
   ),
+};
+
+export const shubham = {
+  name: "Shubham Sharma",
+  role: "Outreach",
+  image: shubhamImg,
+  linkedin: (
+    <a href="https://www.linkedin.com/in/shubham-sharma-3057621b7" target={"_blank"}>
+      <FaLinkedinIn color="white" />
+    </a>
+  )
 };

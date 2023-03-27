@@ -14,7 +14,7 @@ const Prizes = () => {
         <div className="flex flex-row justify-center mb-6">
           <h1 className="grad-text text-5xl font-bold">Prizes</h1>
         </div>
-        <div className="flex flex-row flex-wrap mx-4 md:mx-10 gap-4 justify-center mt-10">
+        <div className="flex flex-row flex-wrap mx-4 md:mx-10 gap-6 justify-center mt-10">
           <PrizeItem
             title="1st Prize"
             prize="₹ 30,000"

@@ -17,7 +17,19 @@ import filecoin from "/assets/images/sponsors/filecoin.png";
 import balsamiq from "/assets/images/sponsors/balsamiq.png";
 import dapps from "/assets/images/sponsors/dapps.png";
 import beeseptor from "/assets/images/sponsors/beeseptor.svg";
+import postman from "/assets/images/sponsors/postman.svg";
 import rpLogo from "/assets/images/sponsors/rpLogo.jpg";
+
+import codesquad from "/assets/images/community/codesquad.jpg";
+import devStation from "/assets/images/community/dev_station.png";
+import devorld from "/assets/images/community/devorld.png";
+import zetapass from "/assets/images/community/zetapass.png";
+import gfg_rtu from "/assets/images/community/gfg_rtu.png";
+import hussky from "/assets/images/community/hussky.jpg";
+import vmace from "/assets/images/community/vmace.jpg";
+import skit from "/assets/images/community/skit.jpeg";
+import cbs from "/assets/images/community/cbs.jpeg";
+import poornima from "/assets/images/community/poornima.jpeg";
 
 const Sponsor = () => {
   return (
@@ -36,36 +48,25 @@ const Sponsor = () => {
           <Icon icon={iic} height="h-28" />
         </div>
         <h1 className="text-5xl font-bold py-10 ">
-          <span className="grad-text">Title</span> Sponsors
-        </h1>
-        <p>...Coming Soon</p>
-        <h1 className="text-5xl font-bold py-10 ">
           <span className="grad-text">Platinum</span> Sponsors
         </h1>
         <p>...Coming Soon</p>
         <h1 className="text-5xl font-bold py-10 ">
           <span className="grad-text">Gold</span> Sponsors
         </h1>
-        <p>...Coming Soon</p>
-        <h1 className="text-5xl font-bold py-10 ">
-          <span className="grad-text">Silver</span> Sponsors
-        </h1>
         <div className="flex flex-row flex-wrap w-4/5 justify-center items-center">
-          <a href="https://devfolio.co/">
+        <a href="https://devfolio.co/">
           <Icon icon={devfolio} height="h-28 px-4 py-6" />
           </a>
           <a href="https://nsb.dev/polygon-bounty" target={"_blank"}>
             <Icon icon={polygon} height="h-28 px-4 py-6" />
           </a>
-          <a href="https://maqtoob-testnet.dapps.co/" target={"_blank"}>
-            <Icon icon={dapps} height="h-28 px-4 py-6 bg-white" />
-          </a>
         </div>
         <h1 className="text-5xl font-bold py-10 ">
-          <span className="grad-text">Bronze</span> Sponsors
+          <span className="grad-text">Silver</span> Sponsors
         </h1>
         <div className="flex flex-row flex-wrap w-4/5 justify-center items-center">
-          <a href="https://nsb.dev/solana-bounty" target={"_blank"}>
+        <a href="https://nsb.dev/solana-bounty" target={"_blank"}>
             <Icon icon={solana} height="h-24 px-4 py-6" />
           </a>
           <a href="https://nsb.dev/replit-bounty" target={"_blank"}>
@@ -74,6 +75,18 @@ const Sponsor = () => {
           <a href="https://nsb.dev/filecoin-bounty" target={"_blank"}>
             <Icon icon={filecoin} height="h-28 px-4 py-6" />
           </a>
+          <a href="https://maqtoob-testnet.dapps.co/" target={"_blank"}>
+            <Icon icon={dapps} height="h-28 px-4 py-6 bg-white" />
+          </a>
+          <a href="https://www.postman.com/" target={"_blank"}>
+            <Icon icon={postman} height="h-28 px-4 py-6" />
+          </a>
+        </div>
+        <h1 className="text-5xl font-bold py-10 ">
+          <span className="grad-text">Bronze</span> Sponsors
+        </h1>
+        <div className="flex flex-row flex-wrap w-4/5 justify-center items-center">
+          
           <a href="https://beeceptor.com/" target={"_blank"}>
             <Icon icon={beeseptor} height="h-28 px-4 py-6" />
           </a>
@@ -94,6 +107,21 @@ const Sponsor = () => {
           <a href="https://balsamiq.cloud/" target={"_blank"}>
             <Icon icon={balsamiq} height="h-28" />
           </a>
+        </div>
+        <h1 className="text-5xl font-bold py-10 ">
+          <span className="grad-text">Community</span> Partners
+        </h1>
+        <div className="flex flex-row flex-wrap w-4/5 justify-center items-center gap-4">
+            <Icon icon={devStation} height="h-32" />
+            <Icon icon={devorld} height="h-32" />
+            <Icon icon={skit} height="h-32" />
+            <Icon icon={gfg_rtu} height="h-32" />
+            <Icon icon={hussky} height="h-32" />
+            <Icon icon={codesquad} height="h-32" />
+            <Icon icon={vmace} height="h-32" />
+            <Icon icon={zetapass} height="h-32" />
+            <Icon icon={cbs} height="h-32" />
+            <Icon icon={poornima} height="h-32" />
         </div>
         <p className="text-4xl font-extrabold pt-10">
           Become a{" "}
