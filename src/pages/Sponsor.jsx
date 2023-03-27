@@ -17,6 +17,7 @@ import filecoin from "/assets/images/sponsors/filecoin.png";
 import balsamiq from "/assets/images/sponsors/balsamiq.png";
 import dapps from "/assets/images/sponsors/dapps.png";
 import beeseptor from "/assets/images/sponsors/beeseptor.svg";
+import postman from "/assets/images/sponsors/postman.svg";
 import rpLogo from "/assets/images/sponsors/rpLogo.jpg";
 
 import codesquad from "/assets/images/community/codesquad.jpg";
@@ -76,6 +77,9 @@ const Sponsor = () => {
           </a>
           <a href="https://maqtoob-testnet.dapps.co/" target={"_blank"}>
             <Icon icon={dapps} height="h-28 px-4 py-6 bg-white" />
+          </a>
+          <a href="https://nsb.dev/solana-bounty" target={"_blank"}>
+            <Icon icon={postman} height="h-28 px-4 py-6" />
           </a>
         </div>
         <h1 className="text-5xl font-bold py-10 ">

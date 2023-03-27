@@ -6,11 +6,9 @@ import abhimanyu from "/assets/images/speakers/abhimanyu.jpeg";
 import abhinav from "/assets/images/speakers/abhinav.jpeg";
 import ayushman from "/assets/images/speakers/ayushman.jpeg";
 import kanav from "/assets/images/speakers/kanav.jpeg";
-import kanishak from "/assets/images/speakers/kanishak.jpeg";
 import manank from "/assets/images/speakers/manank.jpeg";
 import prajakta from "/assets/images/speakers/prajakta.jpeg";
 import rishabh from "/assets/images/speakers/rishabh.jpeg";
-import samarth from "/assets/images/speakers/samarth.jpeg";
 import sheetal from "/assets/images/speakers/sheetal.jpeg";
 import shyaamal from "/assets/images/speakers/shyaamal.jpeg";
 import vishek from "/assets/images/speakers/vishek.jpeg";
@@ -20,6 +18,10 @@ import gantavya from "/assets/images/speakers/gantavya.jpeg";
 import shatakshi from "/assets/images/speakers/shatakshi.jpeg";
 import aryan from "/assets/images/speakers/aryan.jpeg";
 import khushi_t from "/assets/images/speakers/khushi_t.jpeg";
+import aanchal from "/assets/images/speakers/aanchal.jpg";
+import ali from "/assets/images/speakers/ali.jpg";
+
+
 import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Speakers = () => {
@@ -251,6 +253,16 @@ const Speakers = () => {
                 <FaLinkedin />
               </a>
             }
+          />
+          <Member
+            image={aanchal}
+            name="Aanchal Mishra"
+            role="Developer Advocate, Student Program, Postman."
+          />
+          <Member
+            image={ali}
+            name="Ali Mustufa Shaikh"
+            role="Senior Developer Advocate, Postman."
           />
         </div>
       </section>
