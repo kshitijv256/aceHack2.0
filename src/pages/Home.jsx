@@ -1,13 +1,13 @@
 import React from "react";
 import AceHackLogo from "/assets/images/AceHack-logo.png";
 import backgroundImage from "/assets/images/background-image.jpg";
-import { ImLocation, ImLocation2 } from "react-icons/im";
+import { ImLocation } from "react-icons/im";
 import CountdownTimer from "../components/Timer";
 import Icon from "../components/Icon";
 import uem from "/assets/images/uem.png";
 import acm from "/assets/images/acm.jpeg";
 import rpLogo from "/assets/images/sponsors/rpLogo.jpg";
-import { FaBus, FaBusAlt } from "react-icons/fa";
+import { FaBus } from "react-icons/fa";
 
 
 
@@ -44,7 +44,7 @@ const Home = () => {
             <Icon icon={acm} height={'h-16'}/>
         </div>
         <img alt="AceHack Logo" className="min-w-[30%] w-[40%] max-w-[80%] mb-6 md:mb-0" src={AceHackLogo} />
-        <CountdownTimer targetDate={new Date("2023-04-01T00:10:00")} />
+        <CountdownTimer targetDate={new Date("2023-04-01T11:30:00")} />
         <div className="flex flex-row flex-wrap w-full justify-center gap-4 mb-6 md:mb-0">
         <div
           className="apply-button"
