@@ -16,8 +16,8 @@ import Why from "./pages/why";
 import Referal from "./pages/referal";
 import Schedule from "./components/schedule";
 import AddressMap from "./pages/map";
-import Tweets from "./pages/Tweets";
 import AceHackSm from "/assets/images/AceHack-sm-logo.png";
+import Live from "./pages/Live";
 
 const AceLogo = (prop) => {
   return (
@@ -79,7 +79,7 @@ const App = () => {
               path="/live"
               element={
                 <AceLogo>
-                  <Tweets />
+                  <Live />
                 </AceLogo>
               }
             />
