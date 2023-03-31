@@ -1,12 +1,13 @@
 import React from "react";
 import AceHackLogo from "/assets/images/AceHack-logo.png";
 import backgroundImage from "/assets/images/background-image.jpg";
-import { ImLocation2 } from "react-icons/im";
+import { ImLocation, ImLocation2 } from "react-icons/im";
 import CountdownTimer from "../components/Timer";
 import Icon from "../components/Icon";
 import uem from "/assets/images/uem.png";
 import acm from "/assets/images/acm.jpeg";
 import rpLogo from "/assets/images/sponsors/rpLogo.jpg";
+import { FaBus, FaBusAlt } from "react-icons/fa";
 
 
 
@@ -67,9 +68,17 @@ const Home = () => {
             &nbsp; April 1<sup>st</sup> and 2<sup>nd</sup> @ University of Engineering and Management Jaipur
           </p>
         </h2>
-          <div className="text-gray-300 text-lg flex flex-row items-center">
-          <ImLocation2 className="w-10 fill-blue-600" />
+          <div className="flex flex-row flex-wrap gap-4">
+          <div className="font-semibold p-1 pr-4 text-lg flex flex-row items-center rounded-lg bg-emerald-400">
+          <ImLocation className="w-10 fill-white" />
             <button onClick={handleClick}>How to reach ?</button>
+          </div>
+          <div className="flex flex-row items-center rounded-lg p-1 pr-4 bg-sky-500">
+          <FaBus className="w-10 fill-white" />
+            <a href="https://drive.google.com/file/d/1g51Q6F22HenukE7kNOyHUkDvk095h6RT/view?usp=sharing">
+              <button>Bus Route</button>
+            </a>
+          </div>
           </div>
       </div>
     </div>
