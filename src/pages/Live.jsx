@@ -1,4 +1,5 @@
 import React from "react";
+import CountdownTimer from "../components/Timer";
 
 const schedule = [
   ["2023-04-01T10:00:00", '10:00:00', "Check-In"],
@@ -45,8 +46,9 @@ const Live = () => {
     >
       <div className="flex flex-col md:flex-row text-lg text-white gap-10 mx-10 justify-between">
         <div className="flex flex-col items-start">
-        <h1 className="text-6xl font-semibold pb-12 grad-text">
-          {time.toLocaleTimeString()}
+          <p>Hacking Ends In</p>
+        <h1 className="font-semibold pb-12 grad-text">
+          <CountdownTimer targetDate={new Date("2023-04-02T12:00:00")} />
         </h1>
           <p>Happening Now</p>
         <h1 className="text-5xl font-bold pt-2 pb-12 grad-text">
