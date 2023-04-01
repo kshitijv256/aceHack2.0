@@ -1,20 +1,20 @@
 import React from "react";
 
 const schedule = [
-  [],
-  [Date("2023-04-01T11:30:00"), "12:00:00", "Hackathon Begins!"],
-  [Date("2023-04-01T13:00:00"), "13:00:00", "Lunch"],
-  [Date("2023-04-01T15:00:00"), "15:00:00", "Workshop (Postman)"],
-  [Date("2023-04-01T16:30:00"), "16:30:00", "Mentoring Session"],
-  [Date("2023-04-01T18:00:00"), "18:00:00", "Snacks"],
-  [Date("2023-04-01T21:30:00"), "21:30:00", "Dinner"],
-  [Date("2023-04-01T23:00:00"), "23:00:00", "Mentoring Session"],
-  [Date("2023-04-01T00:00:00"), "00:00:00", "Fun Games + Coffee"],
-  [Date("2023-04-02T09:00:00"), "09:00:00", "Breakfast"],
-  [Date("2023-04-02T09:00:00"), "09:00:00", "Breakfast"],
-  [Date("2023-04-02T11:00:00"), "11:00:00", "Final Mentoring Session"],
-  [Date("2023-04-02T13:00:00"), "12:00:00", "Hack Ends!"],
-  [Date("2023-04-02T15:00:00"), "15:00:00", "Prizes + Closing Ceremony"],
+  ["2023-04-01T10:00:00", '10:00:00', "Check-In"],
+  ["2023-04-01T12:00:00", "12:00:00", "Hackathon Begins!"],
+  ["2023-04-01T13:00:00", "13:00:00", "Lunch"],
+  ["2023-04-01T15:00:00", "15:00:00", "Workshop (Postman)"],
+  ["2023-04-01T16:30:00", "16:30:00", "Mentoring Session"],
+  ["2023-04-01T18:00:00", "18:00:00", "Snacks"],
+  ["2023-04-01T21:30:00", "21:30:00", "Dinner"],
+  ["2023-04-01T23:00:00", "23:00:00", "Mentoring Session"],
+  ["2023-04-01T00:00:00", "00:00:00", "Fun Games + Coffee"],
+  ["2023-04-02T09:00:00", "09:00:00", "Breakfast"],
+  ["2023-04-02T09:00:00", "09:00:00", "Breakfast"],
+  ["2023-04-02T11:00:00", "11:00:00", "Final Mentoring Session"],
+  ["2023-04-02T13:00:00", "12:00:00", "Hack Ends!"],
+  ["2023-04-02T15:00:00", "15:00:00", "Prizes + Closing Ceremony"],
 ]
 
 const Live = () => {
@@ -30,8 +30,10 @@ const Live = () => {
 
   React.useEffect(() => {
     for (let i = 0; i < schedule.length; i++) {
-      if (time < schedule[i][0]) {
-        setCurrentEvent(i);
+      let d = new Date(schedule[i][0]).getTime();
+      let t = time.getTime()
+      if (t < d) {
+        setCurrentEvent(i-1);
         break;
       }
     }
