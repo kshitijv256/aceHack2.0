@@ -45,7 +45,7 @@ const Live = () => {
     >
       <div className="flex flex-col md:flex-row text-lg text-white gap-10 mx-10 justify-between">
         <div className="flex flex-col items-start">
-        <h1 className="text-5xl font-semibold pb-12 grad-text">
+        <h1 className="text-6xl font-semibold pb-12 grad-text">
           {time.toLocaleTimeString()}
         </h1>
           <p>Happening Now</p>
