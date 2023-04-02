@@ -9,8 +9,6 @@ import acm from "/assets/images/acm.jpeg";
 import rpLogo from "/assets/images/sponsors/rpLogo.jpg";
 import { FaBus } from "react-icons/fa";
 
-
-
 const Home = () => {
   React.useEffect(() => {
     const script = document.createElement("script");
