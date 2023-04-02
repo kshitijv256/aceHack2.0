@@ -48,7 +48,7 @@ const Live = () => {
         <div className="flex flex-col items-start">
           <p>Hacking Ends In</p>
         <h1 className="font-semibold pb-12 grad-text">
-          <CountdownTimer targetDate={new Date("2023-04-02T12:00:00")} />
+          <CountdownTimer targetDate={new Date("2023-04-02T12:40:00")} />
         </h1>
           <p>Happening Now</p>
         <h1 className="text-5xl font-bold pt-2 pb-12 grad-text">
