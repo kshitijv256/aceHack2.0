@@ -21,24 +21,24 @@ const App = () => {
   return (
     <>
       <Home />
-      <Navbar/>
+      <Navbar />
       {/* <Tweets /> */}
       <About />
-      <Schedule/>
+      {/* <Schedule/> */}
       <Themes />
-      <Why/>
+      <Why />
       <Prizes />
-      <Referal/>
+      <Referal />
       <Sponsor />
       <Past />
       <Speakers />
       <TeamSection />
       <Faculty />
-      <AddressMap/>
+      <AddressMap />
       <Faq />
       <Footer />
     </>
-  )
-}
+  );
+};
 
 export default App;

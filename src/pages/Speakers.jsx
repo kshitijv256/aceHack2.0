@@ -21,7 +21,6 @@ import khushi_t from "/assets/images/speakers/khushi_t.jpeg";
 import aanchal from "/assets/images/speakers/aanchal.jpg";
 import ali from "/assets/images/speakers/ali.jpg";
 
-
 import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Speakers = () => {
@@ -29,10 +28,10 @@ const Speakers = () => {
     <div className="relative items-center justify-center bg-gray-900/30 backdrop-blur-lg w-full z-20 py-10 scroll-smooth">
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
         <div className="flex flex-row justify-center w-full">
-          <h1 className="grad-text font-bold text-5xl mb-10">Mentors</h1>
+          <h1 className="grad-text font-bold text-5xl mb-10">Past Mentors</h1>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <Member
+          <Member
             image={aanchal}
             name="Aanchal Mishra"
             role="Developer Advocate, Student Program, Postman."
@@ -42,7 +41,7 @@ const Speakers = () => {
             name="Ali Mustufa Shaikh"
             role="Senior Developer Advocate, Postman."
           />
-        <Member
+          <Member
             image={ayushman}
             name="Ayushman Pandita"
             social={
@@ -95,7 +94,7 @@ const Speakers = () => {
               </a>
             }
           />
-          
+
           <Member
             image={prajakta}
             name="Prajakta kadam"
@@ -252,7 +251,7 @@ const Speakers = () => {
               </a>
             }
           />
-          
+
           <Member
             image={khushi_t}
             name="Khushi Trivedi"

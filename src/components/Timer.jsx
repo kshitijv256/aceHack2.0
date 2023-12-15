@@ -1,5 +1,5 @@
-import React from 'react';
-import { useEffect, useState } from 'react';
+import React from "react";
+import { useEffect, useState } from "react";
 
 const useCountdown = (targetDate) => {
   const countDownDate = new Date(targetDate).getTime();
@@ -32,18 +32,18 @@ const getReturnValues = (countDown) => {
 };
 
 const DateTimeDisplay = ({ value, type }) => {
-    return (
-      <div className='px-2 flex flex-col items-center'>
-        <p className='font-extrabold text-cyan-400 text-5xl'>{value}</p>
-        <span>{type}</span>
-      </div>
-    );
-  };
+  return (
+    <div className="px-2 flex flex-col items-center">
+      <p className="font-extrabold text-cyan-400 text-5xl">{value}</p>
+      <span>{type}</span>
+    </div>
+  );
+};
 
 const ExpiredNotice = () => {
   return (
-    <div className="font-extrabold text-red-400 text-5xl py-6">
-      <p>Registrations are closed!</p>
+    <div className="font-extrabold text-sky-400 text-5xl py-6">
+      <p>Coming Soon!</p>
     </div>
   );
 };
@@ -51,16 +51,14 @@ const ExpiredNotice = () => {
 const ShowCounter = ({ days, hours, minutes, seconds }) => {
   return (
     <div className="">
-      <div
-        className="flex flex-row items-baseline py-6 text-xl"
-      >
-        <DateTimeDisplay value={days} type={'Days'}/>
+      <div className="flex flex-row items-baseline py-6 text-xl">
+        <DateTimeDisplay value={days} type={"Days"} />
         <p>:</p>
-        <DateTimeDisplay value={hours} type={'Hours'}/>
+        <DateTimeDisplay value={hours} type={"Hours"} />
         <p>:</p>
-        <DateTimeDisplay value={minutes} type={'Mins'}/>
+        <DateTimeDisplay value={minutes} type={"Mins"} />
         <p>:</p>
-        <DateTimeDisplay value={seconds} type={'Seconds'}/>
+        <DateTimeDisplay value={seconds} type={"Seconds"} />
       </div>
     </div>
   );
@@ -84,4 +82,3 @@ const CountdownTimer = ({ targetDate }) => {
 };
 
 export default CountdownTimer;
-

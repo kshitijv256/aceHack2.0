@@ -38,7 +38,7 @@ const Sponsor = () => {
       className="py-16 text-white z-20 relative bg-[#23293f] w-full scroll-smooth"
     >
       <div className="flex flex-col items-center text-center">
-        <h1 className="text-5xl font-bold pb-10">
+        {/* <h1 className="text-5xl font-bold pb-10">
           Our <span className="grad-text">Associate </span>Partners
         </h1>
         <div className="flex flex-row flex-wrap justify-center w-4/5">
@@ -55,8 +55,8 @@ const Sponsor = () => {
           <span className="grad-text">Gold</span> Sponsors
         </h1>
         <div className="flex flex-row flex-wrap w-4/5 justify-center items-center">
-        <a href="https://devfolio.co/">
-          <Icon icon={devfolio} height="h-28 px-4 py-6" />
+          <a href="https://devfolio.co/">
+            <Icon icon={devfolio} height="h-28 px-4 py-6" />
           </a>
           <a href="https://nsb.dev/polygon-bounty" target={"_blank"}>
             <Icon icon={polygon} height="h-28 px-4 py-6" />
@@ -66,7 +66,7 @@ const Sponsor = () => {
           <span className="grad-text">Silver</span> Sponsors
         </h1>
         <div className="flex flex-row flex-wrap w-4/5 justify-center items-center">
-        <a href="https://nsb.dev/solana-bounty" target={"_blank"}>
+          <a href="https://nsb.dev/solana-bounty" target={"_blank"}>
             <Icon icon={solana} height="h-24 px-4 py-6" />
           </a>
           <a href="https://nsb.dev/replit-bounty" target={"_blank"}>
@@ -86,7 +86,6 @@ const Sponsor = () => {
           <span className="grad-text">Bronze</span> Sponsors
         </h1>
         <div className="flex flex-row flex-wrap w-4/5 justify-center items-center">
-          
           <a href="https://beeceptor.com/" target={"_blank"}>
             <Icon icon={beeseptor} height="h-28 px-4 py-6" />
           </a>
@@ -96,7 +95,7 @@ const Sponsor = () => {
         </h1>
         <div className="flex flex-row flex-wrap w-4/5 justify-center items-center">
           <a href="https://www.echo3d.com/" target={"_blank"}>
-          <Icon icon={echo3D} height="h-28" />
+            <Icon icon={echo3D} height="h-28" />
           </a>
           <a href="https://www.wolfram.com/language" target={"_blank"}>
             <Icon icon={wolfram} height="h-24 " />
@@ -112,23 +111,23 @@ const Sponsor = () => {
           <span className="grad-text">Community</span> Partners
         </h1>
         <div className="flex flex-row flex-wrap w-4/5 justify-center items-center gap-4">
-            <Icon icon={devStation} height="h-32" />
-            <Icon icon={devorld} height="h-32" />
-            <Icon icon={skit} height="h-32" />
-            <Icon icon={gfg_rtu} height="h-32" />
-            <Icon icon={hussky} height="h-32" />
-            <Icon icon={codesquad} height="h-32" />
-            <Icon icon={vmace} height="h-32" />
-            <Icon icon={zetapass} height="h-32" />
-            <Icon icon={cbs} height="h-32" />
-            <Icon icon={poornima} height="h-32" />
-        </div>
+          <Icon icon={devStation} height="h-32" />
+          <Icon icon={devorld} height="h-32" />
+          <Icon icon={skit} height="h-32" />
+          <Icon icon={gfg_rtu} height="h-32" />
+          <Icon icon={hussky} height="h-32" />
+          <Icon icon={codesquad} height="h-32" />
+          <Icon icon={vmace} height="h-32" />
+          <Icon icon={zetapass} height="h-32" />
+          <Icon icon={cbs} height="h-32" />
+          <Icon icon={poornima} height="h-32" />
+        </div> */}
         <p className="text-4xl font-extrabold pt-10">
           Become a{" "}
           <span className="underline-offset-8 underline decoration-cyan-300">
             sponsor
           </span>{" "}
-          of <b className="grad-text"> AceHack 2.0</b>{" "}
+          of <b className="grad-text"> AceHack 3.0</b>{" "}
         </p>
         <a
           href="https://drive.google.com/file/d/1exvKjjxlDWIuIE9T52nVFuAudWuvh3cV"
