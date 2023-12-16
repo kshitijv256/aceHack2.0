@@ -24,10 +24,10 @@ const Past = () => {
           <span className="grad-text">AceHack 2.0</span> Highlights!
         </h1>
         <div className="flex sm:flex-row justify-evenly w-full p-10 flex-col">
-          <Features icon={<FaEnvelopeOpenText/>} count="1700" text="Applications" color="blue" />
-          <Features icon={<FaUsers/>} count="500" text="Participants" color="emerald" />
+          <Features icon={<FaEnvelopeOpenText/>} count="3000" text="Applications" color="blue" />
+          <Features icon={<FaUsers/>} count="660" text="Participants" color="emerald" />
           <Features icon={<FaUniversity/>} count="40" text="Universities" color="blue"/>
-          <Features icon={<FaCity/>} count="20" text="Cities" color="emerald"/>
+          <Features icon={<FaCity/>} count="30" text="Cities" color="emerald"/>
         </div>
         <h1 className="grad-text text-5xl font-bold py-6">Glimpses</h1>
         
