@@ -38,7 +38,12 @@ const Prizes = () => {
           <PrizeItem
             color="text-purple-300"
             title="4th-10th Prize"
-            prize="AceHack Swag Box"
+            prize="Swag Box"
+          />
+           <PrizeItem
+            color="text-purple-300"
+            title=" Best CTF Winner"
+            prize="Coming Soon"
           />
         </div>
         <div className="flex flex-col w-full items-center">
