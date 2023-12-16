@@ -53,7 +53,6 @@ const App = () => {
                   <Navbar />
                   <Home />
                   <About />
-                  <Schedule />
                   <Themes />
                   <Why />
                   <Prizes />

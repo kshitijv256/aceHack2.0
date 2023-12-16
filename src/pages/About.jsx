@@ -8,7 +8,7 @@ const About = () => {
     >
       <div className="flex flex-col text-white text-center items-center">
         <h1 className="text-5xl font-bold pb-12 flex-wrap">
-          <span className="grad-text">AceHack 2.0</span> Hackathon is here!
+          <span className="grad-text">AceHack 3.0</span> Hackathon is here!
         </h1>
         <div className="text-[20px] text-justify flex flex-col gap-5 lg:px-56 px-5">
           <p>
@@ -21,14 +21,14 @@ const About = () => {
             other participants and innovate for society.
           </p>
           <p>
-            Our moto is to ignite new ideas from
-            students that would alter and revolutionize the present day
-            situation in India. It will give students chance to
-            showcase their innovative ideas and compete with their peers.
+            Our moto is to ignite new ideas from students that would alter and
+            revolutionize the present day situation in India. It will give
+            students chance to showcase their innovative ideas and compete with
+            their peers.
           </p>
           <p>
             <span className="underline-offset-8 underline decoration-cyan-300">
-              AceHack 2.0
+              AceHack 3.0
             </span>{" "}
             is an amalgamation of fun and learning where spectacular ideas will
             be displayed, and students will learn and feel inspired.
