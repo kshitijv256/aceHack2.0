@@ -1,12 +1,13 @@
 import React from "react";
 import AceHackLogo from "/assets/images/AceHack-logo.png";
 import backgroundImage from "/assets/images/background-image.jpg";
-import { ImLocation2 } from "react-icons/im";
+import { ImLocation } from "react-icons/im";
 import CountdownTimer from "../components/Timer";
 import Icon from "../components/Icon";
 import uem from "/assets/images/uem.png";
 import acm from "/assets/images/acm.jpeg";
 import rpLogo from "/assets/images/sponsors/rpLogo.jpg";
+import { FaBus } from "react-icons/fa";
 
 const Home = () => {
   React.useEffect(() => {
@@ -19,6 +20,10 @@ const Home = () => {
       document.body.removeChild(script);
     };
   }, []);
+  const handleClick = () => {
+    const element = document.getElementById('map');
+    element.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <div
       id="home"
@@ -62,14 +67,26 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <h2 className="break-words text-center mt-8 mb-10 text-2xl flex items-center font-bold">
-          <ImLocation2 className="w-10 fill-blue-600" />
+        <h2 className="break-words text-center mt-10 mb-4 text-2xl flex items-center font-bold">
+          
           <p>
             {" "}
             &nbsp; March 22<sup>nd</sup> and 23<sup>rd</sup> @ University of
             Engineering and Management Jaipur
           </p>
         </h2>
+          <div className="flex flex-row flex-wrap gap-4">
+          <div className="font-semibold p-1 pr-4 text-lg flex flex-row items-center rounded-lg bg-emerald-400">
+          <ImLocation className="w-10 fill-white" />
+            <button onClick={handleClick}>How to reach ?</button>
+          </div>
+          <div className="flex flex-row items-center rounded-lg p-1 pr-4 bg-sky-500">
+          <FaBus className="w-10 fill-white" />
+            <a href="https://drive.google.com/file/d/1g51Q6F22HenukE7kNOyHUkDvk095h6RT/view?usp=sharing">
+              <button>Bus Route</button>
+            </a>
+          </div>
+          </div>
       </div>
     </div>
   );

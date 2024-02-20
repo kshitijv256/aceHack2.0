@@ -15,7 +15,7 @@ import polygon from "/assets/images/sponsors/polygon.png";
 import solana from "/assets/images/sponsors/solana.svg";
 import filecoin from "/assets/images/sponsors/filecoin.png";
 import balsamiq from "/assets/images/sponsors/balsamiq.png";
-import dapps from "/assets/images/sponsors/dapps.png";
+import dapps from "/assets/images/sponsors/dapps.jpeg";
 import beeseptor from "/assets/images/sponsors/beeseptor.svg";
 import postman from "/assets/images/sponsors/postman.svg";
 import rpLogo from "/assets/images/sponsors/rpLogo.jpg";
@@ -130,7 +130,7 @@ const Sponsor = () => {
           of <b className="grad-text"> AceHack 3.0</b>{" "}
         </p>
         <a
-          href="https://drive.google.com/file/d/1exvKjjxlDWIuIE9T52nVFuAudWuvh3cV"
+          href="https://drive.google.com/file/d/12N24ylkGhg1JWzCBL4uleQetM3OY3lJG/view?usp=sharing"
           target={"_blank"}
           className="mt-10 text-black"
         >

@@ -20,6 +20,7 @@ import aryan from "/assets/images/speakers/aryan.jpeg";
 import khushi_t from "/assets/images/speakers/khushi_t.jpeg";
 import aanchal from "/assets/images/speakers/aanchal.jpg";
 import ali from "/assets/images/speakers/ali.jpg";
+import ayon from "/assets/images/speakers/ayon.jpeg";
 
 import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
@@ -258,6 +259,19 @@ const Speakers = () => {
             social={
               <a
                 href="https://www.linkedin.com/in/the-khushi-trivedi/"
+                className="text-2xl text-gray-400"
+                target={"_blank"}
+              >
+                <FaLinkedin />
+              </a>
+            }
+          />
+          <Member
+            image={ayon}
+            name="Ayon Roy"
+            social={
+              <a
+                href="https://www.linkedin.com/in/ayon-roy"
                 className="text-2xl text-gray-400"
                 target={"_blank"}
               >
